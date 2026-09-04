@@ -1,11 +1,18 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 @import "tailwindcss";
+
+
+/* =====================================================
+   GLOBAL
+===================================================== */
 
 :root {
   font-family: "Inter", sans-serif;
 
-  color: #171a1f;
-  background: #f7f8f6;
+  color: #27251f;
+
+  background: #f8efd2;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -17,8 +24,10 @@
 
 body {
   margin: 0;
+
   min-width: 1200px;
-  background: #f7f8f6;
+
+  background: #f8efd2;
 }
 
 button {
@@ -28,73 +37,121 @@ button {
 
 .app {
   min-height: 100vh;
-  background: #f7f8f6;
+
+  background: #f8efd2;
 }
 
 
-/* =========================
-   SIDEBAR
-========================= */
+/* =====================================================
+   SIDEBAR WRAPPER
+===================================================== */
 
-.sidebar {
+.sidebar-wrapper {
   position: fixed;
-  inset: 0 auto 0 0;
+
+  top: 14px;
+  left: 14px;
+  bottom: 14px;
 
   width: 255px;
-
-  background: #ffffff;
-
-  border-right: 1px solid #e7e9e5;
 
   display: flex;
   flex-direction: column;
 
+  gap: 12px;
+
   z-index: 10;
 }
 
-.brand {
-  height: 86px;
 
+/* =====================================================
+   PRECURIA BRAND CARD
+===================================================== */
+
+.brand-card {
+  background: #fffdf5;
+
+  border: 1px solid #ead79a;
+
+  border-radius: 18px;
+
+  padding: 17px 16px;
+
+  flex-shrink: 0;
+}
+
+.brand {
   display: flex;
+
   align-items: center;
 
   gap: 12px;
-
-  padding: 0 24px;
-
-  border-bottom: 1px solid #eef0ed;
 }
 
 .brand-icon {
-  width: 38px;
-  height: 38px;
+  width: 42px;
+  height: 42px;
 
   display: flex;
+
   align-items: center;
   justify-content: center;
 
   border-radius: 11px;
 
-  background: #edf6ef;
+  background: #ffedb0;
 
-  font-size: 19px;
+  color: #a96c00;
+
+  font-size: 18px;
 }
 
 .brand-title {
-  font-size: 15px;
+  font-size: 16px;
+
   font-weight: 700;
+
+  color: #24221d;
 }
 
 .brand-subtitle {
   margin-top: 3px;
 
-  font-size: 11px;
+  font-size: 10px;
 
-  color: #8b918d;
+  color: #89816b;
 }
 
+
+/* =====================================================
+   NAVIGATION CARD
+===================================================== */
+
+.sidebar {
+  flex: 1;
+
+  min-height: 0;
+
+  display: flex;
+
+  flex-direction: column;
+
+  overflow: hidden;
+
+  background: #fffdf5;
+
+  border: 1px solid #ead79a;
+
+  border-radius: 18px;
+}
+
+
+/* =====================================================
+   NAVIGATION
+===================================================== */
+
 .sidebar-nav {
-  padding: 24px 14px;
+  padding: 22px 14px;
 
   flex: 1;
 
@@ -118,7 +175,7 @@ button {
 
   letter-spacing: 0.08em;
 
-  color: #a0a5a1;
+  color: #a18443;
 }
 
 .nav-item {
@@ -138,29 +195,31 @@ button {
 
   margin-bottom: 3px;
 
-  border-radius: 9px;
+  border-radius: 10px;
 
-  color: #68706b;
+  color: #6c6658;
 
   font-size: 13px;
 
   text-align: left;
 
-  transition: 0.2s;
+  transition: all 0.2s ease;
 }
 
 .nav-item:hover {
-  background: #f5f7f4;
+  background: #fff7dc;
 
-  color: #202520;
+  color: #332f27;
 }
 
 .nav-item.active {
-  background: #eef6ef;
+  background: #ffedb0;
 
-  color: #24733d;
+  color: #805500;
 
   font-weight: 600;
+
+  box-shadow: inset 0 0 0 1px #f0d47c;
 }
 
 .nav-icon {
@@ -171,10 +230,15 @@ button {
   font-size: 15px;
 }
 
-.sidebar-footer {
-  padding: 18px;
 
-  border-top: 1px solid #eef0ed;
+/* =====================================================
+   SIDEBAR FOOTER / AI PIPELINE
+===================================================== */
+
+.sidebar-footer {
+  padding: 14px;
+
+  border-top: 1px solid #f0e4bd;
 }
 
 .system-status {
@@ -184,20 +248,22 @@ button {
 
   gap: 10px;
 
-  padding: 12px;
+  padding: 13px;
 
-  border-radius: 10px;
+  border-radius: 11px;
 
-  background: #f7f9f7;
+  background: #fff8df;
+
+  border: 1px solid #f0dfac;
 }
 
 .status-dot {
-  width: 7px;
-  height: 7px;
+  width: 8px;
+  height: 8px;
 
   border-radius: 50%;
 
-  background: #2d9b50;
+  background: #269b52;
 
   flex-shrink: 0;
 }
@@ -206,6 +272,8 @@ button {
   font-size: 12px;
 
   font-weight: 600;
+
+  color: #38342b;
 }
 
 .status-text {
@@ -213,50 +281,63 @@ button {
 
   font-size: 10px;
 
-  color: #8b918d;
+  color: #93896f;
 }
 
 
-/* =========================
-   MAIN
-========================= */
+/* =====================================================
+   MAIN AREA
+===================================================== */
 
 .main-area {
-  margin-left: 255px;
+  margin-left: 283px;
 
   min-height: 100vh;
+
+  padding: 14px 14px 14px 0;
+
+  background: #f8efd2;
 }
 
+
+/* =====================================================
+   HEADER
+===================================================== */
+
 .top-header {
-  height: 86px;
+  min-height: 86px;
 
-  padding: 0 36px;
-
-  background: #ffffff;
-
-  border-bottom: 1px solid #e7e9e5;
+  padding: 0 28px;
 
   display: flex;
 
   align-items: center;
 
   justify-content: space-between;
+
+  background: #fffdf5;
+
+  border: 1px solid #ead79a;
+
+  border-radius: 18px;
 }
 
 .page-title {
   margin: 0;
 
-  font-size: 22px;
+  font-size: 23px;
 
   font-weight: 700;
 
   letter-spacing: -0.02em;
+
+  color: #211f1a;
 }
 
 .page-description {
   margin: 5px 0 0;
 
-  color: #8a918c;
+  color: #877e69;
 
   font-size: 12px;
 }
@@ -278,12 +359,12 @@ button {
 
   font-size: 11px;
 
-  color: #68706b;
+  color: #696253;
 }
 
 .user-avatar {
-  width: 34px;
-  height: 34px;
+  width: 38px;
+  height: 38px;
 
   display: flex;
 
@@ -292,22 +373,24 @@ button {
 
   border-radius: 50%;
 
-  background: #eef0ed;
+  background: #fff0bd;
 
-  color: #59615b;
+  color: #765100;
 
   font-size: 9px;
 
   font-weight: 700;
+
+  border: 1px solid #f0d986;
 }
 
 
-/* =========================
-   PAGE
-========================= */
+/* =====================================================
+   MAIN PAGE
+===================================================== */
 
 main {
-  padding: 30px 36px;
+  padding: 18px 0 0;
 }
 
 .page-content {
@@ -317,9 +400,9 @@ main {
 }
 
 
-/* =========================
-   KPI
-========================= */
+/* =====================================================
+   KPI CARDS
+===================================================== */
 
 .kpi-grid {
   display: grid;
@@ -333,17 +416,17 @@ main {
 }
 
 .kpi-card {
-  background: #ffffff;
+  background: #fffef9;
 
-  border: 1px solid #e7e9e5;
+  border: 1px solid #ead79a;
 
-  border-radius: 12px;
+  border-radius: 16px;
 
   padding: 20px;
 
   min-height: 142px;
 
-  transition: 0.2s;
+  transition: all 0.2s ease;
 }
 
 .kpi-card:hover {
@@ -351,21 +434,23 @@ main {
 
   box-shadow:
     0 8px 25px
-    rgba(20, 30, 20, 0.05);
+    rgba(117, 91, 20, 0.08);
 }
 
 .kpi-icon {
-  width: 32px;
-  height: 32px;
+  width: 34px;
+  height: 34px;
 
   display: flex;
 
   align-items: center;
   justify-content: center;
 
-  border-radius: 8px;
+  border-radius: 9px;
 
-  background: #f1f5f1;
+  background: #fff1c6;
+
+  color: #a96d00;
 
   font-size: 14px;
 }
@@ -378,6 +463,8 @@ main {
   font-weight: 700;
 
   letter-spacing: -0.04em;
+
+  color: #25231e;
 }
 
 .kpi-label {
@@ -387,7 +474,7 @@ main {
 
   font-weight: 600;
 
-  color: #505851;
+  color: #514c40;
 }
 
 .kpi-description {
@@ -395,13 +482,13 @@ main {
 
   font-size: 10px;
 
-  color: #9aa09c;
+  color: #9b927d;
 }
 
 
-/* =========================
+/* =====================================================
    PANELS
-========================= */
+===================================================== */
 
 .dashboard-grid {
   display: grid;
@@ -415,15 +502,19 @@ main {
 }
 
 .panel {
-  background: #ffffff;
+  background: #fffef9;
 
-  border: 1px solid #e7e9e5;
+  border: 1px solid #ead79a;
 
-  border-radius: 12px;
+  border-radius: 16px;
 
   padding: 22px;
 
   margin-bottom: 18px;
+
+  box-shadow:
+    0 2px 8px
+    rgba(120, 93, 22, 0.03);
 }
 
 .panel-header {
@@ -442,6 +533,8 @@ main {
   font-size: 14px;
 
   font-weight: 700;
+
+  color: #28251f;
 }
 
 .panel-header p {
@@ -449,22 +542,26 @@ main {
 
   font-size: 11px;
 
-  color: #949a96;
+  color: #938a76;
 }
 
 
-/* =========================
+/* =====================================================
    CHART
-========================= */
+===================================================== */
 
 .chart-container {
   height: 280px;
 }
 
+.recharts-tooltip-wrapper {
+  outline: none;
+}
 
-/* =========================
+
+/* =====================================================
    PRIORITY
-========================= */
+===================================================== */
 
 .priority-content h3 {
   margin: 16px 0 4px;
@@ -472,6 +569,8 @@ main {
   font-size: 19px;
 
   line-height: 1.35;
+
+  color: #28251f;
 }
 
 .priority-hazard {
@@ -479,7 +578,7 @@ main {
 
   font-size: 12px;
 
-  color: #818883;
+  color: #837b68;
 }
 
 .priority-metrics {
@@ -496,15 +595,19 @@ main {
 .priority-metrics div {
   padding: 12px;
 
-  border-radius: 8px;
+  border-radius: 10px;
 
-  background: #f7f9f7;
+  background: #fff9e7;
+
+  border: 1px solid #f1e5c4;
 }
 
 .priority-metrics strong {
   display: block;
 
   font-size: 18px;
+
+  color: #2b2923;
 }
 
 .priority-metrics span {
@@ -514,7 +617,7 @@ main {
 
   font-size: 9px;
 
-  color: #8e958f;
+  color: #918873;
 }
 
 .recommendation {
@@ -522,9 +625,11 @@ main {
 
   padding: 13px;
 
-  border-radius: 9px;
+  border-radius: 10px;
 
-  background: #f7f9f7;
+  background: #fff7d8;
+
+  border: 1px solid #efd98b;
 }
 
 .recommendation-label {
@@ -536,7 +641,7 @@ main {
 
   letter-spacing: 0.06em;
 
-  color: #8d948f;
+  color: #9a6a05;
 }
 
 .recommendation p {
@@ -546,13 +651,13 @@ main {
 
   line-height: 1.55;
 
-  color: #565e58;
+  color: #5c5545;
 }
 
 
-/* =========================
+/* =====================================================
    BADGES
-========================= */
+===================================================== */
 
 .badge {
   display: inline-flex;
@@ -581,33 +686,49 @@ main {
   background: currentColor;
 }
 
+
+/* HIGH / CRITICAL */
+
 .sif-high,
 .priority-critical {
-  color: #bd3838;
-  background: #fff0f0;
+  color: #c62828;
+
+  background: #fde8e7;
 }
 
+
+/* MEDIUM */
+
 .sif-medium,
-.priority-high {
-  color: #b66a12;
-  background: #fff6e8;
+.priority-medium {
+  color: #a47700;
+
+  background: #fff1c7;
 }
+
+
+/* LOW */
 
 .sif-low,
 .priority-low {
-  color: #4c8060;
-  background: #eef7f0;
-}
+  color: #2f6fca;
 
-.priority-medium {
-  color: #9a7617;
-  background: #fff8df;
+  background: #e8f0ff;
 }
 
 
-/* =========================
+/* HIGH PRIORITY */
+
+.priority-high {
+  color: #b36b00;
+
+  background: #fff0d0;
+}
+
+
+/* =====================================================
    TABLE
-========================= */
+===================================================== */
 
 .table-wrapper {
   overflow-x: auto;
@@ -622,7 +743,7 @@ table {
 }
 
 thead {
-  background: #fafbfa;
+  background: #fff7dc;
 }
 
 th {
@@ -630,7 +751,7 @@ th {
 
   text-align: left;
 
-  color: #969d98;
+  color: #8c805f;
 
   font-size: 9px;
 
@@ -640,29 +761,29 @@ th {
 
   letter-spacing: 0.04em;
 
-  border-bottom: 1px solid #edf0ed;
+  border-bottom: 1px solid #eadfbf;
 }
 
 td {
   padding: 14px 12px;
 
-  border-bottom: 1px solid #f0f2ef;
+  border-bottom: 1px solid #f0e7d0;
 
-  color: #68706b;
+  color: #6c6658;
 
   vertical-align: middle;
 }
 
 .strong-cell {
-  color: #272d28;
+  color: #2d2a23;
 
   font-weight: 600;
 }
 
 
-/* =========================
+/* =====================================================
    BUTTONS
-========================= */
+===================================================== */
 
 .primary-button {
   width: 100%;
@@ -673,19 +794,23 @@ td {
 
   border: none;
 
-  border-radius: 8px;
+  border-radius: 9px;
 
-  background: #20251f;
+  background: #f5bd27;
 
-  color: #ffffff;
+  color: #3b2c00;
 
   font-size: 11px;
 
-  font-weight: 600;
+  font-weight: 700;
+
+  transition: all 0.2s ease;
 }
 
 .primary-button:hover {
-  background: #30382f;
+  background: #e7ab0d;
+
+  transform: translateY(-1px);
 }
 
 .secondary-button,
@@ -694,7 +819,7 @@ td {
 
   background: transparent;
 
-  color: #65706a;
+  color: #96700f;
 
   font-size: 11px;
 
@@ -703,13 +828,13 @@ td {
 
 .text-button:hover,
 .secondary-button:hover {
-  color: #20251f;
+  color: #6d5000;
 }
 
 
-/* =========================
+/* =====================================================
    MONITORING
-========================= */
+===================================================== */
 
 .monitoring-banner {
   display: flex;
@@ -720,11 +845,11 @@ td {
 
   padding: 18px 20px;
 
-  background: #ffffff;
+  background: #fff7d8;
 
-  border: 1px solid #e7e9e5;
+  border: 1px solid #e8ce70;
 
-  border-radius: 12px;
+  border-radius: 16px;
 }
 
 .monitoring-icon {
@@ -736,11 +861,11 @@ td {
   align-items: center;
   justify-content: center;
 
-  border-radius: 10px;
+  border-radius: 11px;
 
-  background: #eef6ef;
+  background: #ffe9a6;
 
-  color: #347449;
+  color: #a96d00;
 
   font-size: 18px;
 }
@@ -753,6 +878,8 @@ td {
   margin: 0;
 
   font-size: 13px;
+
+  color: #332e22;
 }
 
 .monitoring-text p {
@@ -760,13 +887,13 @@ td {
 
   font-size: 10px;
 
-  color: #929893;
+  color: #938a72;
 }
 
 
-/* =========================
+/* =====================================================
    COMING SOON
-========================= */
+===================================================== */
 
 .coming-soon {
   max-width: 1500px;
@@ -777,23 +904,25 @@ td {
 
   text-align: center;
 
-  background: #ffffff;
+  background: #fffef9;
 
-  border: 1px solid #e7e9e5;
+  border: 1px solid #ead79a;
 
-  border-radius: 12px;
+  border-radius: 16px;
 }
 
 .coming-soon h2 {
   margin: 0;
 
   font-size: 20px;
+
+  color: #29261f;
 }
 
 .coming-soon p {
   margin-top: 8px;
 
-  color: #929893;
+  color: #938a76;
 
   font-size: 12px;
 }

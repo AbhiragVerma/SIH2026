@@ -2,6 +2,7 @@ import {
   ResponsiveContainer,
   BarChart,
   Bar,
+  Rectangle,
   XAxis,
   YAxis,
   Tooltip,
@@ -67,19 +68,22 @@ export default function Overview() {
 
 
   const chartData = [
-    {
-      name: "HIGH",
-      value: high,
-    },
-    {
-      name: "MEDIUM",
-      value: medium,
-    },
-    {
-      name: "LOW",
-      value: low,
-    },
-  ];
+  {
+    name: "HIGH",
+    value: high,
+    fill: "#E53935",
+  },
+  {
+    name: "MEDIUM",
+    value: medium,
+    fill: "#F5B82E",
+  },
+  {
+    name: "LOW",
+    value: low,
+    fill: "#3F7FE5",
+  },
+];
 
 
   return (
@@ -170,14 +174,15 @@ export default function Overview() {
                 <Tooltip />
 
                 <Bar
-                  dataKey="value"
-                  radius={[
-                    8,
-                    8,
-                    0,
-                    0,
-                  ]}
-                />
+        dataKey="value"
+        radius={[8, 8, 0, 0]}
+        shape={(props) => (
+          <Rectangle
+            {...props}
+            fill={props.payload?.fill}
+          />
+        )}
+      />
 
               </BarChart>
 

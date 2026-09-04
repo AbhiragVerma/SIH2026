@@ -11,7 +11,6 @@ export default function Header({
     <header className="top-header">
 
       <div>
-
         <h1 className="page-title">
           {title}
         </h1>
@@ -19,7 +18,6 @@ export default function Header({
         <p className="page-description">
           {description}
         </p>
-
       </div>
 
 
@@ -32,6 +30,7 @@ export default function Header({
             AI-assisted
           </span>
         </div>
+
 
         <div className="user-avatar">
           HSE
