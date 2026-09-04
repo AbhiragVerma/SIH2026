@@ -100,8 +100,11 @@ function App() {
         />
       );
     case "interventions":
-      return <InterventionMonitoring />;
-
+      return (
+        <InterventionMonitoring
+          uploadedAnalysis={uploadedAnalysis}
+        />
+      );
     default:
       return (
         <div className="coming-soon">
