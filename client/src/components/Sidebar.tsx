@@ -56,86 +56,26 @@ export default function Sidebar({
   onNavigate,
 }: SidebarProps) {
   return (
-    <aside className="sidebar">
+    <div className="sidebar-wrapper">
 
-      <div className="brand">
+      {/* =========================
+          PRECURIA BRAND CARD
+      ========================= */}
+      <div className="brand-card">
 
-        <div className="brand-icon">
-          🛡
-        </div>
+        <div className="brand">
 
-        <div>
-          <div className="brand-title">
-            PreCuria
+          <div className="brand-icon">
+            🛡
           </div>
-
-          <div className="brand-subtitle">
-            AI-Intelligence Platform
-          </div>
-        </div>
-
-      </div>
-
-
-      <nav className="sidebar-nav">
-
-        {navigation.map((group) => (
-          <div
-            className="nav-group"
-            key={group.section}
-          >
-
-            <div className="nav-section-title">
-              {group.section}
-            </div>
-
-            {group.items.map((item) => {
-
-              const active =
-                activePage === item.id;
-
-              return (
-                <button
-                  key={item.id}
-                  className={`nav-item ${
-                    active ? "active" : ""
-                  }`}
-                  onClick={() =>
-                    onNavigate(item.id)
-                  }
-                >
-
-                  <span className="nav-icon">
-                    {item.icon}
-                  </span>
-
-                  <span>
-                    {item.label}
-                  </span>
-
-                </button>
-              );
-            })}
-
-          </div>
-        ))}
-
-      </nav>
-
-
-      <div className="sidebar-footer">
-
-        <div className="system-status">
-
-          <span className="status-dot" />
 
           <div>
-            <div className="status-title">
-              AI Pipeline
+            <div className="brand-title">
+              PreCuria
             </div>
 
-            <div className="status-text">
-              Ready
+            <div className="brand-subtitle">
+              AI-Intelligence Platform
             </div>
           </div>
 
@@ -143,6 +83,85 @@ export default function Sidebar({
 
       </div>
 
-    </aside>
+
+      {/* =========================
+          NAVIGATION CARD
+      ========================= */}
+      <aside className="sidebar">
+
+        <nav className="sidebar-nav">
+
+          {navigation.map((group) => (
+            <div
+              className="nav-group"
+              key={group.section}
+            >
+
+              <div className="nav-section-title">
+                {group.section}
+              </div>
+
+              {group.items.map((item) => {
+
+                const active =
+                  activePage === item.id;
+
+                return (
+                  <button
+                    key={item.id}
+                    className={`nav-item ${
+                      active ? "active" : ""
+                    }`}
+                    onClick={() =>
+                      onNavigate(item.id)
+                    }
+                  >
+
+                    <span className="nav-icon">
+                      {item.icon}
+                    </span>
+
+                    <span>
+                      {item.label}
+                    </span>
+
+                  </button>
+                );
+              })}
+
+            </div>
+          ))}
+
+        </nav>
+
+
+        {/* =========================
+            AI PIPELINE
+        ========================= */}
+        <div className="sidebar-footer">
+
+          <div className="system-status">
+
+            <span className="status-dot" />
+
+            <div>
+
+              <div className="status-title">
+                AI Pipeline
+              </div>
+
+              <div className="status-text">
+                Ready
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </aside>
+
+    </div>
   );
 }
