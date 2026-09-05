@@ -56,12 +56,12 @@ export default function PrecursorIntelligence({
     ).length;
 
 
-  const countries = new Set(
-    precursorPatterns.flatMap(
-      (pattern) =>
-        pattern.countries
-    )
-  ).size;
+  // const countries = new Set(
+  //   precursorPatterns.flatMap(
+  //     (pattern) =>
+  //       pattern.countries
+  //   )
+  // ).size;
 
 
   const highSIF =
@@ -209,11 +209,11 @@ export default function PrecursorIntelligence({
           tone="red"
         />
 
-        <StatCard
+        {/* <StatCard
           label="Countries"
           value={countries}
           icon="◎"
-        />
+        /> */}
 
         <StatCard
           label="HIGH SIF Reports"
@@ -304,12 +304,12 @@ export default function PrecursorIntelligence({
                   label="HIGH SIF"
                 />
 
-                <Metric
+                {/* <Metric
                   value={
                     topPattern.countries.length
                   }
                   label="Countries"
-                />
+                /> */}
 
               </div>
 
@@ -340,7 +340,7 @@ export default function PrecursorIntelligence({
               </div>
 
 
-              <div className="mt-5">
+              {/* <div className="mt-5">
 
                 <p className="text-[9px] font-semibold uppercase tracking-wide text-slate-400">
                   Countries
@@ -352,7 +352,7 @@ export default function PrecursorIntelligence({
                   )}
                 </p>
 
-              </div>
+              </div> */}
 
 
               <button
@@ -681,7 +681,7 @@ function PatternDetails({
         </div>
 
 
-        <div className="rounded-xl border border-slate-200 bg-white p-6">
+        {/* <div className="rounded-xl border border-slate-200 bg-white p-6">
 
           <h3 className="text-sm font-bold text-slate-900">
             Geographic Spread
@@ -716,7 +716,7 @@ function PatternDetails({
 
           </div>
 
-        </div>
+        </div> */}
 
       </section>
 

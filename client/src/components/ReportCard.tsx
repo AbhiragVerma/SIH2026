@@ -67,7 +67,7 @@ export default function ReportCard({
 
         </div>
 
-        <div>
+        {/* <div>
 
           <span>
             SIF Score
@@ -77,9 +77,9 @@ export default function ReportCard({
             {sif.score}
           </strong>
 
-        </div>
+        </div> */}
 
-        <div>
+        {/* <div>
 
           <span>
             Extraction Confidence
@@ -91,7 +91,7 @@ export default function ReportCard({
             )}%
           </strong>
 
-        </div>
+        </div> */}
 
       </div>
 

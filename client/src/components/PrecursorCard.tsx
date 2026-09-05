@@ -100,10 +100,10 @@ export default function PrecursorCard({
           label="HIGH SIF"
         />
 
-        <Metric
+        {/* <Metric
           value={pattern.countries.length}
           label="Countries"
-        />
+        /> */}
 
       </div>
 

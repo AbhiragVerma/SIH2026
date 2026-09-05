@@ -460,7 +460,8 @@ export default function Overview({
                   </span>
                 </div>
 
-                <div>
+                </div>
+                {/* <div>
                   <strong>
                     {topPriority.countries.length}
                   </strong>
@@ -468,9 +469,8 @@ export default function Overview({
                   <span>
                     Countries
                   </span>
-                </div>
+                </div> */}
 
-              </div>
 
 
               <div className="recommendation">
@@ -531,7 +531,7 @@ export default function Overview({
             <thead>
 
               <tr>
-
+          
                 <th>
                   Activity
                 </th>
@@ -540,17 +540,17 @@ export default function Overview({
                   Hazard
                 </th>
 
-                <th>
+                {/* <th>
                   Life-Saving Rule
-                </th>
+                </th> */}
 
                 <th>
                   Occurrences
                 </th>
 
-                <th>
+                {/* <th>
                   Countries
-                </th>
+                </th> */}
 
                 <th>
                   Priority
@@ -579,19 +579,19 @@ export default function Overview({
                       {pattern.hazard}
                     </td>
 
-                    <td>
+                    {/* <td>
                       {pattern.related_lsrs.join(
                         ", "
                       )}
-                    </td>
+                    </td> */}
 
                     <td>
                       {pattern.occurrence_count}
                     </td>
 
-                    <td>
+                    {/* <td>
                       {pattern.countries.length}
-                    </td>
+                    </td> */}
 
                     <td>
 

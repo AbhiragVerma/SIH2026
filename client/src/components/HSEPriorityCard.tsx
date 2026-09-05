@@ -65,10 +65,10 @@ export default function HSEPriorityCard({
           label="HIGH SIF"
         />
 
-        <Metric
+        {/* <Metric
           value={priority.countries.length}
           label="Countries"
-        />
+        /> */}
 
       </div>
 

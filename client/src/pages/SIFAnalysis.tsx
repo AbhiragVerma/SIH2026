@@ -775,7 +775,7 @@ function SIFDetail({
 
         <div className="rounded-lg bg-slate-50 p-4">
 
-          <p className="text-[10px] uppercase tracking-wide text-slate-400">
+          {/* <p className="text-[10px] uppercase tracking-wide text-slate-400">
             Confidence
           </p>
 
@@ -783,7 +783,7 @@ function SIFDetail({
             {Math.round(
               extraction.confidence * 100
             )}%
-          </p>
+          </p> */}
 
         </div>
 

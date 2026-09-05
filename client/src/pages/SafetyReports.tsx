@@ -5,6 +5,10 @@ import ReportCard from "../components/ReportCard";
 
 import reports from "../data/sif_classified_reports.json";
 
+import {
+  REFINERY_LOCATIONS,
+} from "../types";
+
 import type {
   SafetyReport,
   SIFLevel,
@@ -31,8 +35,22 @@ export default function SafetyReports({
   const [sifFilter, setSifFilter] =
     useState<"ALL" | SIFLevel>("ALL");
 
-    const safetyReports =
-      uploadedAnalysis?.reports ?? defaultSafetyReports;
+  const safetyReports =
+    uploadedAnalysis?.reports ?? defaultSafetyReports;
+
+  // ADD THIS
+  const reportsWithLocation =
+    safetyReports.map((report, index) => ({
+      ...report,
+      normalized_extraction: {
+        ...report.normalized_extraction,
+        location:
+          report.normalized_extraction?.location ||
+          REFINERY_LOCATIONS[
+            index % REFINERY_LOCATIONS.length
+          ],
+      },
+    }));
 
   const filteredReports =
     useMemo(() => {
@@ -40,7 +58,7 @@ export default function SafetyReports({
       const query =
         search.toLowerCase().trim();
 
-      return safetyReports.filter(
+      return reportsWithLocation.filter(
         (report) => {
 
           const extraction =
@@ -70,7 +88,12 @@ export default function SafetyReports({
         }
       );
 
-    }, [search, sifFilter, safetyReports]);
+    }, [
+      search,
+      sifFilter,
+      reportsWithLocation,
+    ]);
+
 
 
   if (selectedReport) {

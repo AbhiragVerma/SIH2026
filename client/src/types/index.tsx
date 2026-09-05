@@ -95,3 +95,25 @@ export interface UploadedAnalysis {
   precursor_patterns: PrecursorPattern[];
   hse_priorities: HSEPriorityItem[];
 }
+
+export const REFINERY_LOCATIONS = [
+  "Loading Bay",
+  "Tank Farm",
+  "Jetty / Marine Terminal",
+  "Maintenance Workshop",
+  "Pipe Rack",
+  "Warehouse",
+  "Boiler House",
+  "Cooling Tower",
+  "Control Room",
+  "Hydrocracker Unit",
+  "Hydrogen Plant",
+  "Compressor Station",
+] as const;
+
+export type RefineryLocation =
+  (typeof REFINERY_LOCATIONS)[number];
+
+export function getReportLocation(index: number): RefineryLocation {
+  return REFINERY_LOCATIONS[index % REFINERY_LOCATIONS.length];
+}
