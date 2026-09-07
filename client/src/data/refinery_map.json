@@ -1,0 +1,59 @@
+{
+  "refinery": {
+    "name": "Reliance Jamnagar Refinery Complex",
+    "city": "Jamnagar",
+    "state": "Gujarat",
+    "country": "India",
+    "latitude": 22.35,
+    "longitude": 69.84
+  },
+
+  "zones": [
+    {
+      "id": "processing",
+      "name": "Processing Area",
+      "description": "High-level process and refining operations zone",
+      "source_zones": [
+        "Crude Distillation Unit (CDU)",
+        "FCC / Coker Area",
+        "Hydroprocessing Area",
+        "Aromatics / Paraxylene Area",
+        "Gasification / Petcoke Handling Area"
+        ]
+    },
+    {
+      "id": "storage",
+      "name": "Storage Area",
+      "description": "High-level storage and material handling zone",
+      "source_zones": [
+        "Tank Farm"
+      ]
+    },
+
+    {
+      "id": "utilities",
+      "name": "Utilities Area",
+      "description": "High-level utilities and supporting operations zone",
+      "source_zones": [
+        "Utilities / Power Area"
+      ]
+    },
+
+    {
+      "id": "maintenance",
+      "name": "Maintenance Area",
+      "description": "High-level maintenance and equipment support zone",
+      "source_zones": [
+        "Maintenance Workshop"
+      ]
+    },
+    {
+      "id": "loading",
+      "name": "Loading and Transfer Area",
+      "description": "High-level material transfer and loading zone",
+      "source_zones": [
+        "Marine / Product Loading Area"
+    ]
+    }
+  ]
+}

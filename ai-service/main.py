@@ -267,6 +267,7 @@ async def upload_report(
             ".csv",
             ".xlsx",
             ".xls",
+            ".json",
         }
 
         if extension not in allowed_extensions:
@@ -279,7 +280,8 @@ async def upload_report(
                         "PDF",
                         "CSV",
                         "XLSX",
-                        "XLS"
+                        "XLS",
+                        "JSON"
                     ],
                 },
             )
@@ -358,7 +360,37 @@ async def upload_report(
                 )
             )
 
+        elif extension == ".json":
+
+            data = json.loads(
+                content.decode("utf-8")
+            )
+
+            if isinstance(data, dict) and "reports" in data:
+                raw_records = data["reports"]
+
+            elif isinstance(data, list):
+                raw_records = data
+
+            else:
+                raise HTTPException(
+                    status_code=400,
+                    detail=(
+                        "JSON file must contain a "
+                        "'reports' list or a list of reports."
+                    )
+                )
+
+            if not raw_records:
+                raise HTTPException(
+                    status_code=400,
+                    detail="JSON file contains no reports."
+                )
+
         else:
+
+
+
 
             engine = (
                 "openpyxl"
@@ -471,7 +503,12 @@ async def upload_report(
                 continue
 
             report_id = (
-                f"UPLOAD-{upload_id}-{index:03d}"
+                record.get("report_id")
+                if isinstance(record, dict) and record.get("report_id")
+                else f"UPLOAD-{upload_id}-{index:03d}"
+
+
+                # f"UPLOAD-{upload_id}-{index:03d}"
             )
 
             # ----------------------------------------------

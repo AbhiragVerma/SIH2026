@@ -104,6 +104,21 @@ def extract_safety_information(report_text):
         []
     )
 
+    refinery_zone = find_field(
+        report_text,
+        "REFINERY_ZONE",
+        [
+            "FUNCTION",
+            "ACTIVITY",
+            "CAUSE",
+            "PRIMARY LIFE-SAVING RULE",
+            "SECONARY LIFE-SAVING RULE",
+            "NARRATIVE"
+        ]
+    )
+
+
+
     # ==================================================
     # 2. TEXT WE USE FOR ANALYSIS
     # ==================================================
@@ -358,7 +373,7 @@ def extract_safety_information(report_text):
     return {
         "activity": activity,
         "hazard": hazard,
-        "location": None,
+        "location": refinery_zone,
         "unsafe_act": unsafe_act,
         "unsafe_condition": unsafe_condition,
         "barrier_failure": barrier_failure,

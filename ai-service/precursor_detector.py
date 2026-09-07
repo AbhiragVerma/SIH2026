@@ -65,16 +65,30 @@ def normalize_key(value):
 
 def detect_precursors(reports):
 
+    # patterns = defaultdict(lambda: {
+    #     "report_ids": [],
+    #     "countries": [],
+    #     "activities": [],
+    #     "hazards": [],
+    #     "lsrs": [],
+    #     "barrier_failures": [],
+    #     "sif_levels": [],
+    #     "scores": []
+    # })
+
     patterns = defaultdict(lambda: {
-        "report_ids": [],
-        "countries": [],
-        "activities": [],
-        "hazards": [],
-        "lsrs": [],
-        "barrier_failures": [],
-        "sif_levels": [],
-        "scores": []
-    })
+    "report_ids": [],
+    "countries": [],
+    "activities": [],
+    "hazards": [],
+    "locations": [],
+    "lsrs": [],
+    "barrier_failures": [],
+    "sif_levels": [],
+    "scores": []
+})
+
+
 
     for report in reports:
 
@@ -98,6 +112,10 @@ def detect_precursors(reports):
 
         barrier = clean(
             extraction.get("barrier_failure")
+        )
+
+        location = clean(
+            extraction.get("location")
         )
 
         primary_lsr = clean(
@@ -150,6 +168,9 @@ def detect_precursors(reports):
 
         if hazard:
             patterns[key]["hazards"].append(hazard)
+
+        if location:
+            patterns[key]["locations"].append(location)
 
         if primary_lsr:
             patterns[key]["lsrs"].append(primary_lsr)
@@ -272,6 +293,9 @@ def detect_precursors(reports):
 
             "barrier_failure":
                 barrier_display,
+
+            "locations":
+                sorted(set(data["locations"])),
 
             "related_lsrs":
                 unique_lsrs,
