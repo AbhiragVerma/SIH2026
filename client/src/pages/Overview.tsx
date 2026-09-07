@@ -10,6 +10,7 @@ import {
 
 import KPICard from "../components/KPICard";
 import PriorityBadge from "../components/PriorityBadge";
+import RefineryRiskMap from "../components/RefineryRiskMap";
 
 import reports from "../data/sif_classified_reports.json";
 import patterns from "../data/precursor_patterns.json";
@@ -498,6 +499,20 @@ export default function Overview({
 
       </section>
 
+{/* REFINERY RISK MAP */}
+
+<section className="panel" style={{ marginBottom: "20px" }}>
+  <div className="panel-header">
+    <div>
+      <h2>Refinery Risk Heatmap</h2>
+      <p>
+        Spatial HSE risk overview for the Jamnagar Refinery Complex
+      </p>
+    </div>
+  </div>
+
+  <RefineryRiskMap />
+</section>
 
       {/* PRECURSOR TABLE */}
 

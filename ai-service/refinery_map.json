@@ -1,0 +1,19 @@
+{
+  "refinery": "Reliance Jamnagar Refinery Complex",
+  "location": {
+    "latitude": 22.35,
+    "longitude": 69.84
+  },
+  "zones": [
+    {
+      "id": "zone_1",
+      "name": "Processing Area",
+      "risk_level": "CRITICAL"
+    },
+    {
+      "id": "zone_2",
+      "name": "Storage Area",
+      "risk_level": "HIGH"
+    }
+  ]
+}

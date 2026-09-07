@@ -1,0 +1,1727 @@
+{
+  "upload_id": "20260905_155940_241693",
+  "filename": "jamnagar_refinery_synthetic_reports (1).json",
+  "file_type": ".json",
+  "analyzed_at": "2026-09-05T15:59:40.304045",
+  "report_count": 20,
+  "reports": [
+    {
+      "report_id": "JAM-2026-001",
+      "source_file": "jamnagar_refinery_synthetic_reports (1).json",
+      "source_type": ".json",
+      "original_report": "report_id: JAM-2026-001\nsource_file: jamnagar_synthetic_2026.json\nsource_type: json\nreport_text: DATE: 12 Jan 2026\nCOUNTRY: India\nSITE: Reliance Jamnagar Refinery Complex, Gujarat\nREFINERY_ZONE: Crude Distillation Unit (CDU)\nFUNCTION: Refining Operations\nACTIVITY: Production operations\nCAUSE: Process upset / loss of containment potential\nPRIMARY LIFE-SAVING RULE: Process safety / line of fire\nNARRATIVE:\nDuring routine CDU operation, operators observed an abnormal pressure rise on a crude preheat train. The control room initiated the approved response and reduced feed rate while field personnel verified valve and instrument status. No release or injury occurred. The event was escalated as a high-potential near miss because continued pressure escalation could have resulted in equipment damage and hydrocarbon release.\nWHAT WENT WRONG:\nThe abnormal trend was not identified as early as expected during the initial operating review.\nCORRECTIVE ACTIONS:\nReview alarm response expectations, verify instrumentation health, and reinforce operating-envelope checks before continuing at normal throughput.",
+      "raw_extraction": {
+        "activity": "Production operations\nCAUSE: Process upset / loss of containment potential",
+        "hazard": null,
+        "location": "Crude Distillation Unit (CDU)",
+        "unsafe_act": null,
+        "unsafe_condition": null,
+        "barrier_failure": null,
+        "potential_consequence": "injury",
+        "primary_lsr": "Process safety / line of fire",
+        "secondary_lsr": null,
+        "evidence": [
+          "The abnormal trend was not identified as early as expected during the initial operating review.\nCORRECTIVE ACTIONS:\nReview alarm response expectations, verify instrumentation health, and reinforce operating-envelope checks before continuing at normal throughput."
+        ],
+        "confidence": 0.65
+      },
+      "normalized_extraction": {
+        "activity": "Production operations\nCAUSE: Process upset / loss of containment potential",
+        "hazard": null,
+        "location": "Crude Distillation Unit (CDU)",
+        "unsafe_act": null,
+        "unsafe_condition": null,
+        "barrier_failure": null,
+        "potential_consequence": "injury",
+        "primary_lsr": "Process safety / line of fire",
+        "secondary_lsr": null,
+        "evidence": [
+          "The abnormal trend was not identified as early as expected during the initial operating review.\nCORRECTIVE ACTIONS:\nReview alarm response expectations, verify instrumentation health, and reinforce operating-envelope checks before continuing at normal throughput."
+        ],
+        "confidence": 0.65
+      },
+      "validation": {
+        "is_valid": true,
+        "issues": []
+      },
+      "status": "SUCCESS",
+      "sif_classification": {
+        "sif_score": 1,
+        "sif_level": "LOW",
+        "sif_reasons": [
+          "Potential consequence: injury (+1)"
+        ]
+      }
+    },
+    {
+      "report_id": "JAM-2026-002",
+      "source_file": "jamnagar_refinery_synthetic_reports (1).json",
+      "source_type": ".json",
+      "original_report": "report_id: JAM-2026-002\nsource_file: jamnagar_synthetic_2026.json\nsource_type: json\nreport_text: DATE: 18 Jan 2026\nCOUNTRY: India\nSITE: Reliance Jamnagar Refinery Complex, Gujarat\nREFINERY_ZONE: FCC / Coker Area\nFUNCTION: Refining Operations\nACTIVITY: Maintenance, inspection, testing\nCAUSE: Stored energy\nPRIMARY LIFE-SAVING RULE: Energy isolation\nNARRATIVE:\nDuring preparation for maintenance on process equipment in the FCC area, residual pressure was identified after the first isolation step. Work was stopped and the equipment was positively isolated and depressurized before maintenance began. No injury occurred.\nWHAT WENT WRONG:\nThe initial isolation verification did not identify the residual energy condition.\nCORRECTIVE ACTIONS:\nStrengthen isolation verification, require documented zero-energy confirmation, and review the permit before work starts.",
+      "raw_extraction": {
+        "activity": "Maintenance, inspection, testing\nCAUSE: Stored energy",
+        "hazard": "stored energy",
+        "location": "FCC / Coker Area",
+        "unsafe_act": null,
+        "unsafe_condition": null,
+        "barrier_failure": null,
+        "potential_consequence": "injury",
+        "primary_lsr": "Energy isolation",
+        "secondary_lsr": null,
+        "evidence": [
+          "The initial isolation verification did not identify the residual energy condition.\nCORRECTIVE ACTIONS:\nStrengthen isolation verification, require documented zero-energy confirmation, and review the permit before work starts."
+        ],
+        "confidence": 0.7
+      },
+      "normalized_extraction": {
+        "activity": "Maintenance, inspection, testing\nCAUSE: Stored energy",
+        "hazard": "stored energy",
+        "location": "FCC / Coker Area",
+        "unsafe_act": null,
+        "unsafe_condition": null,
+        "barrier_failure": null,
+        "potential_consequence": "injury",
+        "primary_lsr": "Energy isolation",
+        "secondary_lsr": null,
+        "evidence": [
+          "The initial isolation verification did not identify the residual energy condition.\nCORRECTIVE ACTIONS:\nStrengthen isolation verification, require documented zero-energy confirmation, and review the permit before work starts."
+        ],
+        "confidence": 0.7
+      },
+      "validation": {
+        "is_valid": true,
+        "issues": []
+      },
+      "status": "SUCCESS",
+      "sif_classification": {
+        "sif_score": 6,
+        "sif_level": "MEDIUM",
+        "sif_reasons": [
+          "Primary LSR: Energy isolation (+2)",
+          "Hazard: stored energy (+3)",
+          "Potential consequence: injury (+1)"
+        ]
+      }
+    },
+    {
+      "report_id": "JAM-2026-003",
+      "source_file": "jamnagar_refinery_synthetic_reports (1).json",
+      "source_type": ".json",
+      "original_report": "report_id: JAM-2026-003\nsource_file: jamnagar_synthetic_2026.json\nsource_type: json\nreport_text: DATE: 24 Jan 2026\nCOUNTRY: India\nSITE: Reliance Jamnagar Refinery Complex, Gujarat\nREFINERY_ZONE: Tank Farm\nFUNCTION: Storage Operations\nACTIVITY: Transfer and loading operations\nCAUSE: Vehicle / road hazard\nPRIMARY LIFE-SAVING RULE: Driving\nNARRATIVE:\nA road tanker approached a designated transfer area at excessive speed and required abrupt braking near an active loading lane. No contact or injury occurred. The movement was stopped and the driver was briefed.\nWHAT WENT WRONG:\nSpeed-control expectations and vehicle approach controls were not followed.\nCORRECTIVE ACTIONS:\nReinforce site traffic controls, verify route signage, and increase supervision during tanker movements.",
+      "raw_extraction": {
+        "activity": "Transfer and loading operations\nCAUSE: Vehicle / road hazard",
+        "hazard": "vehicle/road hazard",
+        "location": "Tank Farm",
+        "unsafe_act": null,
+        "unsafe_condition": null,
+        "barrier_failure": null,
+        "potential_consequence": "injury",
+        "primary_lsr": "Driving",
+        "secondary_lsr": null,
+        "evidence": [
+          "Speed-control expectations and vehicle approach controls were not followed.\nCORRECTIVE ACTIONS:\nReinforce site traffic controls, verify route signage, and increase supervision during tanker movements."
+        ],
+        "confidence": 0.7
+      },
+      "normalized_extraction": {
+        "activity": "Transfer and loading operations\nCAUSE: Vehicle / road hazard",
+        "hazard": "vehicle/road hazard",
+        "location": "Tank Farm",
+        "unsafe_act": null,
+        "unsafe_condition": null,
+        "barrier_failure": null,
+        "potential_consequence": "injury",
+        "primary_lsr": "Driving",
+        "secondary_lsr": null,
+        "evidence": [
+          "Speed-control expectations and vehicle approach controls were not followed.\nCORRECTIVE ACTIONS:\nReinforce site traffic controls, verify route signage, and increase supervision during tanker movements."
+        ],
+        "confidence": 0.7
+      },
+      "validation": {
+        "is_valid": true,
+        "issues": []
+      },
+      "status": "SUCCESS",
+      "sif_classification": {
+        "sif_score": 4,
+        "sif_level": "LOW",
+        "sif_reasons": [
+          "Primary LSR: Driving (+1)",
+          "Hazard: vehicle/road hazard (+2)",
+          "Potential consequence: injury (+1)"
+        ]
+      }
+    },
+    {
+      "report_id": "JAM-2026-004",
+      "source_file": "jamnagar_refinery_synthetic_reports (1).json",
+      "source_type": ".json",
+      "original_report": "report_id: JAM-2026-004\nsource_file: jamnagar_synthetic_2026.json\nsource_type: json\nreport_text: DATE: 31 Jan 2026\nCOUNTRY: India\nSITE: Reliance Jamnagar Refinery Complex, Gujarat\nREFINERY_ZONE: Marine / Product Loading Area\nFUNCTION: Logistics\nACTIVITY: Lifting, crane, rigging, deck operations\nCAUSE: Lifting hazard\nPRIMARY LIFE-SAVING RULE: Line of fire\nNARRATIVE:\nDuring movement of maintenance material near the product loading interface, a suspended load rotated unexpectedly after a change in wind direction. The lifting operation was stopped before personnel entered the load path. No injury occurred.\nWHAT WENT WRONG:\nThe exclusion zone was smaller than required for the potential load movement.\nCORRECTIVE ACTIONS:\nReview lifting plans, enlarge exclusion zones where required, and reinforce line-of-fire controls.",
+      "raw_extraction": {
+        "activity": "Lifting, crane, rigging, deck operations\nCAUSE: Lifting hazard",
+        "hazard": "lifting hazard",
+        "location": "Marine / Product Loading Area",
+        "unsafe_act": null,
+        "unsafe_condition": null,
+        "barrier_failure": null,
+        "potential_consequence": "injury",
+        "primary_lsr": "Line of fire",
+        "secondary_lsr": null,
+        "evidence": [
+          "The exclusion zone was smaller than required for the potential load movement.\nCORRECTIVE ACTIONS:\nReview lifting plans, enlarge exclusion zones where required, and reinforce line-of-fire controls."
+        ],
+        "confidence": 0.7
+      },
+      "normalized_extraction": {
+        "activity": "Lifting, crane, rigging, deck operations\nCAUSE: Lifting hazard",
+        "hazard": "lifting hazard",
+        "location": "Marine / Product Loading Area",
+        "unsafe_act": null,
+        "unsafe_condition": null,
+        "barrier_failure": null,
+        "potential_consequence": "injury",
+        "primary_lsr": "Line of fire",
+        "secondary_lsr": null,
+        "evidence": [
+          "The exclusion zone was smaller than required for the potential load movement.\nCORRECTIVE ACTIONS:\nReview lifting plans, enlarge exclusion zones where required, and reinforce line-of-fire controls."
+        ],
+        "confidence": 0.7
+      },
+      "validation": {
+        "is_valid": true,
+        "issues": []
+      },
+      "status": "SUCCESS",
+      "sif_classification": {
+        "sif_score": 5,
+        "sif_level": "MEDIUM",
+        "sif_reasons": [
+          "Primary LSR: Line of fire (+2)",
+          "Hazard: lifting hazard (+2)",
+          "Potential consequence: injury (+1)"
+        ]
+      }
+    },
+    {
+      "report_id": "JAM-2026-005",
+      "source_file": "jamnagar_refinery_synthetic_reports (1).json",
+      "source_type": ".json",
+      "original_report": "report_id: JAM-2026-005\nsource_file: jamnagar_synthetic_2026.json\nsource_type: json\nreport_text: DATE: 06 Feb 2026\nCOUNTRY: India\nSITE: Reliance Jamnagar Refinery Complex, Gujarat\nREFINERY_ZONE: Utilities / Power Area\nFUNCTION: Utilities\nACTIVITY: Electrical maintenance\nCAUSE: Electrical energy\nPRIMARY LIFE-SAVING RULE: Energy isolation\nNARRATIVE:\nAn electrical maintenance team identified an unexpected energized indication during pre-work verification on a utility distribution panel. Work was stopped immediately and the circuit was isolated and tested again.\nWHAT WENT WRONG:\nThe first verification step was not sufficient to establish a confirmed de-energized condition.\nCORRECTIVE ACTIONS:\nReinforce test-before-touch requirements and independent verification for electrical isolation.",
+      "raw_extraction": {
+        "activity": "Electrical maintenance\nCAUSE: Electrical energy",
+        "hazard": null,
+        "location": "Utilities / Power Area",
+        "unsafe_act": null,
+        "unsafe_condition": null,
+        "barrier_failure": null,
+        "potential_consequence": null,
+        "primary_lsr": "Energy isolation",
+        "secondary_lsr": null,
+        "evidence": [
+          "The first verification step was not sufficient to establish a confirmed de-energized condition.\nCORRECTIVE ACTIONS:\nReinforce test-before-touch requirements and independent verification for electrical isolation."
+        ],
+        "confidence": 0.6
+      },
+      "normalized_extraction": {
+        "activity": "Electrical maintenance\nCAUSE: Electrical energy",
+        "hazard": null,
+        "location": "Utilities / Power Area",
+        "unsafe_act": null,
+        "unsafe_condition": null,
+        "barrier_failure": null,
+        "potential_consequence": null,
+        "primary_lsr": "Energy isolation",
+        "secondary_lsr": null,
+        "evidence": [
+          "The first verification step was not sufficient to establish a confirmed de-energized condition.\nCORRECTIVE ACTIONS:\nReinforce test-before-touch requirements and independent verification for electrical isolation."
+        ],
+        "confidence": 0.6
+      },
+      "validation": {
+        "is_valid": true,
+        "issues": []
+      },
+      "status": "SUCCESS",
+      "sif_classification": {
+        "sif_score": 2,
+        "sif_level": "LOW",
+        "sif_reasons": [
+          "Primary LSR: Energy isolation (+2)"
+        ]
+      }
+    },
+    {
+      "report_id": "JAM-2026-006",
+      "source_file": "jamnagar_refinery_synthetic_reports (1).json",
+      "source_type": ".json",
+      "original_report": "report_id: JAM-2026-006\nsource_file: jamnagar_synthetic_2026.json\nsource_type: json\nreport_text: DATE: 14 Feb 2026\nCOUNTRY: India\nSITE: Reliance Jamnagar Refinery Complex, Gujarat\nREFINERY_ZONE: Hydroprocessing Area\nFUNCTION: Refining Operations\nACTIVITY: Maintenance, inspection, testing\nCAUSE: Dropped object\nPRIMARY LIFE-SAVING RULE: Line of fire\nNARRATIVE:\nDuring inspection work at an elevated platform, a small hand tool slipped from a work position and was stopped by the secondary retention arrangement. No person was below the platform and no injury occurred.\nWHAT WENT WRONG:\nTool tethering was not applied consistently to every item taken to the elevated work position.\nCORRECTIVE ACTIONS:\nStandardize tool retention checks and reinforce dropped-object prevention before elevated work.",
+      "raw_extraction": {
+        "activity": "Maintenance, inspection, testing\nCAUSE: Dropped object",
+        "hazard": "dropped object",
+        "location": "Hydroprocessing Area",
+        "unsafe_act": null,
+        "unsafe_condition": null,
+        "barrier_failure": null,
+        "potential_consequence": "injury",
+        "primary_lsr": "Line of fire",
+        "secondary_lsr": null,
+        "evidence": [
+          "Tool tethering was not applied consistently to every item taken to the elevated work position.\nCORRECTIVE ACTIONS:\nStandardize tool retention checks and reinforce dropped-object prevention before elevated work."
+        ],
+        "confidence": 0.7
+      },
+      "normalized_extraction": {
+        "activity": "Maintenance, inspection, testing\nCAUSE: Dropped object",
+        "hazard": "dropped object",
+        "location": "Hydroprocessing Area",
+        "unsafe_act": null,
+        "unsafe_condition": null,
+        "barrier_failure": null,
+        "potential_consequence": "injury",
+        "primary_lsr": "Line of fire",
+        "secondary_lsr": null,
+        "evidence": [
+          "Tool tethering was not applied consistently to every item taken to the elevated work position.\nCORRECTIVE ACTIONS:\nStandardize tool retention checks and reinforce dropped-object prevention before elevated work."
+        ],
+        "confidence": 0.7
+      },
+      "validation": {
+        "is_valid": true,
+        "issues": []
+      },
+      "status": "SUCCESS",
+      "sif_classification": {
+        "sif_score": 6,
+        "sif_level": "MEDIUM",
+        "sif_reasons": [
+          "Primary LSR: Line of fire (+2)",
+          "Hazard: dropped object (+3)",
+          "Potential consequence: injury (+1)"
+        ]
+      }
+    },
+    {
+      "report_id": "JAM-2026-007",
+      "source_file": "jamnagar_refinery_synthetic_reports (1).json",
+      "source_type": ".json",
+      "original_report": "report_id: JAM-2026-007\nsource_file: jamnagar_synthetic_2026.json\nsource_type: json\nreport_text: DATE: 22 Feb 2026\nCOUNTRY: India\nSITE: Reliance Jamnagar Refinery Complex, Gujarat\nREFINERY_ZONE: Aromatics / Paraxylene Area\nFUNCTION: Process Operations\nACTIVITY: Production operations\nCAUSE: Process parameter deviation\nPRIMARY LIFE-SAVING RULE: Work authorization\nNARRATIVE:\nA process parameter moved outside the normal operating band during routine production. The operator followed the response procedure, stabilized the unit, and notified the shift supervisor. No release or injury occurred.\nWHAT WENT WRONG:\nThe deviation was recognized later than expected because trend review was not performed at the planned interval.\nCORRECTIVE ACTIONS:\nReinforce operating-trend review and shift handover expectations.",
+      "raw_extraction": {
+        "activity": "Production operations\nCAUSE: Process parameter deviation",
+        "hazard": null,
+        "location": "Aromatics / Paraxylene Area",
+        "unsafe_act": null,
+        "unsafe_condition": null,
+        "barrier_failure": null,
+        "potential_consequence": "injury",
+        "primary_lsr": "Work authorization",
+        "secondary_lsr": null,
+        "evidence": [
+          "The deviation was recognized later than expected because trend review was not performed at the planned interval.\nCORRECTIVE ACTIONS:\nReinforce operating-trend review and shift handover expectations."
+        ],
+        "confidence": 0.65
+      },
+      "normalized_extraction": {
+        "activity": "Production operations\nCAUSE: Process parameter deviation",
+        "hazard": null,
+        "location": "Aromatics / Paraxylene Area",
+        "unsafe_act": null,
+        "unsafe_condition": null,
+        "barrier_failure": null,
+        "potential_consequence": "injury",
+        "primary_lsr": "Work authorization",
+        "secondary_lsr": null,
+        "evidence": [
+          "The deviation was recognized later than expected because trend review was not performed at the planned interval.\nCORRECTIVE ACTIONS:\nReinforce operating-trend review and shift handover expectations."
+        ],
+        "confidence": 0.65
+      },
+      "validation": {
+        "is_valid": true,
+        "issues": []
+      },
+      "status": "SUCCESS",
+      "sif_classification": {
+        "sif_score": 2,
+        "sif_level": "LOW",
+        "sif_reasons": [
+          "Primary LSR: Work authorization (+1)",
+          "Potential consequence: injury (+1)"
+        ]
+      }
+    },
+    {
+      "report_id": "JAM-2026-008",
+      "source_file": "jamnagar_refinery_synthetic_reports (1).json",
+      "source_type": ".json",
+      "original_report": "report_id: JAM-2026-008\nsource_file: jamnagar_synthetic_2026.json\nsource_type: json\nreport_text: DATE: 01 Mar 2026\nCOUNTRY: India\nSITE: Reliance Jamnagar Refinery Complex, Gujarat\nREFINERY_ZONE: Maintenance Workshop\nFUNCTION: Maintenance\nACTIVITY: Maintenance, inspection, testing\nCAUSE: Inadequate hazard identification or risk assessment\nPRIMARY LIFE-SAVING RULE: Work authorization\nNARRATIVE:\nBefore a planned equipment repair, the crew identified an unplanned pinch point created by the proposed work position. The task was paused and the job plan was revised before work resumed.\nWHAT WENT WRONG:\nThe original job hazard analysis did not fully consider the temporary work position.\nCORRECTIVE ACTIONS:\nImprove task-level risk assessment and require field verification of the work position.",
+      "raw_extraction": {
+        "activity": "Maintenance, inspection, testing\nCAUSE: Inadequate hazard identification or risk assessment",
+        "hazard": null,
+        "location": "Maintenance Workshop",
+        "unsafe_act": null,
+        "unsafe_condition": null,
+        "barrier_failure": null,
+        "potential_consequence": null,
+        "primary_lsr": "Work authorization",
+        "secondary_lsr": null,
+        "evidence": [
+          "The original job hazard analysis did not fully consider the temporary work position.\nCORRECTIVE ACTIONS:\nImprove task-level risk assessment and require field verification of the work position."
+        ],
+        "confidence": 0.6
+      },
+      "normalized_extraction": {
+        "activity": "Maintenance, inspection, testing\nCAUSE: Inadequate hazard identification or risk assessment",
+        "hazard": null,
+        "location": "Maintenance Workshop",
+        "unsafe_act": null,
+        "unsafe_condition": null,
+        "barrier_failure": null,
+        "potential_consequence": null,
+        "primary_lsr": "Work authorization",
+        "secondary_lsr": null,
+        "evidence": [
+          "The original job hazard analysis did not fully consider the temporary work position.\nCORRECTIVE ACTIONS:\nImprove task-level risk assessment and require field verification of the work position."
+        ],
+        "confidence": 0.6
+      },
+      "validation": {
+        "is_valid": true,
+        "issues": []
+      },
+      "status": "SUCCESS",
+      "sif_classification": {
+        "sif_score": 1,
+        "sif_level": "LOW",
+        "sif_reasons": [
+          "Primary LSR: Work authorization (+1)"
+        ]
+      }
+    },
+    {
+      "report_id": "JAM-2026-009",
+      "source_file": "jamnagar_refinery_synthetic_reports (1).json",
+      "source_type": ".json",
+      "original_report": "report_id: JAM-2026-009\nsource_file: jamnagar_synthetic_2026.json\nsource_type: json\nreport_text: DATE: 09 Mar 2026\nCOUNTRY: India\nSITE: Reliance Jamnagar Refinery Complex, Gujarat\nREFINERY_ZONE: Gasification / Petcoke Handling Area\nFUNCTION: Process Operations\nACTIVITY: Material handling\nCAUSE: Dropped object\nPRIMARY LIFE-SAVING RULE: Line of fire\nNARRATIVE:\nA material-handling container shifted during positioning near the petcoke handling area. The load was stabilized before entering the final position and no person was struck.\nWHAT WENT WRONG:\nThe load path was not fully controlled during the initial positioning.\nCORRECTIVE ACTIONS:\nReview material-handling plans and reinforce exclusion zones around moving loads.",
+      "raw_extraction": {
+        "activity": "Material handling\nCAUSE: Dropped object",
+        "hazard": null,
+        "location": "Gasification / Petcoke Handling Area",
+        "unsafe_act": null,
+        "unsafe_condition": null,
+        "barrier_failure": null,
+        "potential_consequence": null,
+        "primary_lsr": "Line of fire",
+        "secondary_lsr": null,
+        "evidence": [
+          "The load path was not fully controlled during the initial positioning.\nCORRECTIVE ACTIONS:\nReview material-handling plans and reinforce exclusion zones around moving loads."
+        ],
+        "confidence": 0.6
+      },
+      "normalized_extraction": {
+        "activity": "Material handling\nCAUSE: Dropped object",
+        "hazard": null,
+        "location": "Gasification / Petcoke Handling Area",
+        "unsafe_act": null,
+        "unsafe_condition": null,
+        "barrier_failure": null,
+        "potential_consequence": null,
+        "primary_lsr": "Line of fire",
+        "secondary_lsr": null,
+        "evidence": [
+          "The load path was not fully controlled during the initial positioning.\nCORRECTIVE ACTIONS:\nReview material-handling plans and reinforce exclusion zones around moving loads."
+        ],
+        "confidence": 0.6
+      },
+      "validation": {
+        "is_valid": true,
+        "issues": []
+      },
+      "status": "SUCCESS",
+      "sif_classification": {
+        "sif_score": 2,
+        "sif_level": "LOW",
+        "sif_reasons": [
+          "Primary LSR: Line of fire (+2)"
+        ]
+      }
+    },
+    {
+      "report_id": "JAM-2026-010",
+      "source_file": "jamnagar_refinery_synthetic_reports (1).json",
+      "source_type": ".json",
+      "original_report": "report_id: JAM-2026-010\nsource_file: jamnagar_synthetic_2026.json\nsource_type: json\nreport_text: DATE: 17 Mar 2026\nCOUNTRY: India\nSITE: Reliance Jamnagar Refinery Complex, Gujarat\nREFINERY_ZONE: Tank Farm\nFUNCTION: Storage Operations\nACTIVITY: Inspection and testing\nCAUSE: Inadequate hazard identification or risk assessment\nPRIMARY LIFE-SAVING RULE: Work authorization\nNARRATIVE:\nA planned inspection identified that temporary vehicle movement could conflict with a maintenance work area. The inspection was paused and the access route was revised.\nWHAT WENT WRONG:\nThe interaction between simultaneous vehicle and maintenance activities was not fully captured in the initial risk assessment.\nCORRECTIVE ACTIONS:\nCoordinate simultaneous operations and include traffic interaction in task risk assessments.",
+      "raw_extraction": {
+        "activity": "Inspection and testing\nCAUSE: Inadequate hazard identification or risk assessment",
+        "hazard": "vehicle/road hazard",
+        "location": "Tank Farm",
+        "unsafe_act": null,
+        "unsafe_condition": null,
+        "barrier_failure": null,
+        "potential_consequence": null,
+        "primary_lsr": "Work authorization",
+        "secondary_lsr": null,
+        "evidence": [
+          "The interaction between simultaneous vehicle and maintenance activities was not fully captured in the initial risk assessment.\nCORRECTIVE ACTIONS:\nCoordinate simultaneous operations and include traffic interaction in task risk assessments."
+        ],
+        "confidence": 0.65
+      },
+      "normalized_extraction": {
+        "activity": "Inspection and testing\nCAUSE: Inadequate hazard identification or risk assessment",
+        "hazard": "vehicle/road hazard",
+        "location": "Tank Farm",
+        "unsafe_act": null,
+        "unsafe_condition": null,
+        "barrier_failure": null,
+        "potential_consequence": null,
+        "primary_lsr": "Work authorization",
+        "secondary_lsr": null,
+        "evidence": [
+          "The interaction between simultaneous vehicle and maintenance activities was not fully captured in the initial risk assessment.\nCORRECTIVE ACTIONS:\nCoordinate simultaneous operations and include traffic interaction in task risk assessments."
+        ],
+        "confidence": 0.65
+      },
+      "validation": {
+        "is_valid": true,
+        "issues": []
+      },
+      "status": "SUCCESS",
+      "sif_classification": {
+        "sif_score": 3,
+        "sif_level": "LOW",
+        "sif_reasons": [
+          "Primary LSR: Work authorization (+1)",
+          "Hazard: vehicle/road hazard (+2)"
+        ]
+      }
+    },
+    {
+      "report_id": "JAM-2026-011",
+      "source_file": "jamnagar_refinery_synthetic_reports (1).json",
+      "source_type": ".json",
+      "original_report": "report_id: JAM-2026-011\nsource_file: jamnagar_synthetic_2026.json\nsource_type: json\nreport_text: DATE: 26 Mar 2026\nCOUNTRY: India\nSITE: Reliance Jamnagar Refinery Complex, Gujarat\nREFINERY_ZONE: Marine / Product Loading Area\nFUNCTION: Logistics\nACTIVITY: Transport - Land\nCAUSE: Vehicle / road hazard\nPRIMARY LIFE-SAVING RULE: Driving\nNARRATIVE:\nA service vehicle entered a restricted loading approach during a shift change. The vehicle was stopped before reaching the active work area.\nWHAT WENT WRONG:\nThe driver did not receive the updated temporary traffic arrangement during handover.\nCORRECTIVE ACTIONS:\nImprove shift-change traffic communication and verify temporary route controls.",
+      "raw_extraction": {
+        "activity": "Transport - Land\nCAUSE: Vehicle / road hazard",
+        "hazard": "vehicle/road hazard",
+        "location": "Marine / Product Loading Area",
+        "unsafe_act": null,
+        "unsafe_condition": null,
+        "barrier_failure": null,
+        "potential_consequence": null,
+        "primary_lsr": "Driving",
+        "secondary_lsr": null,
+        "evidence": [
+          "The driver did not receive the updated temporary traffic arrangement during handover.\nCORRECTIVE ACTIONS:\nImprove shift-change traffic communication and verify temporary route controls."
+        ],
+        "confidence": 0.65
+      },
+      "normalized_extraction": {
+        "activity": "Transport - Land\nCAUSE: Vehicle / road hazard",
+        "hazard": "vehicle/road hazard",
+        "location": "Marine / Product Loading Area",
+        "unsafe_act": null,
+        "unsafe_condition": null,
+        "barrier_failure": null,
+        "potential_consequence": null,
+        "primary_lsr": "Driving",
+        "secondary_lsr": null,
+        "evidence": [
+          "The driver did not receive the updated temporary traffic arrangement during handover.\nCORRECTIVE ACTIONS:\nImprove shift-change traffic communication and verify temporary route controls."
+        ],
+        "confidence": 0.65
+      },
+      "validation": {
+        "is_valid": true,
+        "issues": []
+      },
+      "status": "SUCCESS",
+      "sif_classification": {
+        "sif_score": 3,
+        "sif_level": "LOW",
+        "sif_reasons": [
+          "Primary LSR: Driving (+1)",
+          "Hazard: vehicle/road hazard (+2)"
+        ]
+      }
+    },
+    {
+      "report_id": "JAM-2026-012",
+      "source_file": "jamnagar_refinery_synthetic_reports (1).json",
+      "source_type": ".json",
+      "original_report": "report_id: JAM-2026-012\nsource_file: jamnagar_synthetic_2026.json\nsource_type: json\nreport_text: DATE: 04 Apr 2026\nCOUNTRY: India\nSITE: Reliance Jamnagar Refinery Complex, Gujarat\nREFINERY_ZONE: FCC / Coker Area\nFUNCTION: Refining Operations\nACTIVITY: Lifting, crane, rigging, deck operations\nCAUSE: Lifting hazard\nPRIMARY LIFE-SAVING RULE: Safe mechanical lifting\nNARRATIVE:\nA crane-assisted maintenance lift in the FCC area was stopped after the load began to rotate outside the expected path. No person was inside the exclusion zone.\nWHAT WENT WRONG:\nThe lift plan did not sufficiently account for changing load orientation during the final movement.\nCORRECTIVE ACTIONS:\nUpdate lifting plans and require a pre-lift review of load behavior and exclusion zones.",
+      "raw_extraction": {
+        "activity": "Lifting, crane, rigging, deck operations\nCAUSE: Lifting hazard",
+        "hazard": "lifting hazard",
+        "location": "FCC / Coker Area",
+        "unsafe_act": null,
+        "unsafe_condition": null,
+        "barrier_failure": null,
+        "potential_consequence": null,
+        "primary_lsr": "Safe mechanical lifting",
+        "secondary_lsr": null,
+        "evidence": [
+          "The lift plan did not sufficiently account for changing load orientation during the final movement.\nCORRECTIVE ACTIONS:\nUpdate lifting plans and require a pre-lift review of load behavior and exclusion zones."
+        ],
+        "confidence": 0.65
+      },
+      "normalized_extraction": {
+        "activity": "Lifting, crane, rigging, deck operations\nCAUSE: Lifting hazard",
+        "hazard": "lifting hazard",
+        "location": "FCC / Coker Area",
+        "unsafe_act": null,
+        "unsafe_condition": null,
+        "barrier_failure": null,
+        "potential_consequence": null,
+        "primary_lsr": "Safe mechanical lifting",
+        "secondary_lsr": null,
+        "evidence": [
+          "The lift plan did not sufficiently account for changing load orientation during the final movement.\nCORRECTIVE ACTIONS:\nUpdate lifting plans and require a pre-lift review of load behavior and exclusion zones."
+        ],
+        "confidence": 0.65
+      },
+      "validation": {
+        "is_valid": true,
+        "issues": []
+      },
+      "status": "SUCCESS",
+      "sif_classification": {
+        "sif_score": 4,
+        "sif_level": "LOW",
+        "sif_reasons": [
+          "Primary LSR: Safe mechanical lifting (+2)",
+          "Hazard: lifting hazard (+2)"
+        ]
+      }
+    },
+    {
+      "report_id": "JAM-2026-013",
+      "source_file": "jamnagar_refinery_synthetic_reports (1).json",
+      "source_type": ".json",
+      "original_report": "report_id: JAM-2026-013\nsource_file: jamnagar_synthetic_2026.json\nsource_type: json\nreport_text: DATE: 12 Apr 2026\nCOUNTRY: India\nSITE: Reliance Jamnagar Refinery Complex, Gujarat\nREFINERY_ZONE: Hydroprocessing Area\nFUNCTION: Maintenance\nACTIVITY: Maintenance, inspection, testing\nCAUSE: Stored energy\nPRIMARY LIFE-SAVING RULE: Energy isolation\nNARRATIVE:\nDuring preparation for inspection, pressure indication remained above the expected zero condition on an isolated section. The team stopped work and re-established isolation before opening the equipment.\nWHAT WENT WRONG:\nIsolation verification was treated as complete before confirming all stored energy had dissipated.\nCORRECTIVE ACTIONS:\nRequire documented zero-energy checks at the point of work.",
+      "raw_extraction": {
+        "activity": "Maintenance, inspection, testing\nCAUSE: Stored energy",
+        "hazard": "stored energy",
+        "location": "Hydroprocessing Area",
+        "unsafe_act": null,
+        "unsafe_condition": null,
+        "barrier_failure": null,
+        "potential_consequence": null,
+        "primary_lsr": "Energy isolation",
+        "secondary_lsr": null,
+        "evidence": [
+          "Isolation verification was treated as complete before confirming all stored energy had dissipated.\nCORRECTIVE ACTIONS:\nRequire documented zero-energy checks at the point of work."
+        ],
+        "confidence": 0.65
+      },
+      "normalized_extraction": {
+        "activity": "Maintenance, inspection, testing\nCAUSE: Stored energy",
+        "hazard": "stored energy",
+        "location": "Hydroprocessing Area",
+        "unsafe_act": null,
+        "unsafe_condition": null,
+        "barrier_failure": null,
+        "potential_consequence": null,
+        "primary_lsr": "Energy isolation",
+        "secondary_lsr": null,
+        "evidence": [
+          "Isolation verification was treated as complete before confirming all stored energy had dissipated.\nCORRECTIVE ACTIONS:\nRequire documented zero-energy checks at the point of work."
+        ],
+        "confidence": 0.65
+      },
+      "validation": {
+        "is_valid": true,
+        "issues": []
+      },
+      "status": "SUCCESS",
+      "sif_classification": {
+        "sif_score": 5,
+        "sif_level": "MEDIUM",
+        "sif_reasons": [
+          "Primary LSR: Energy isolation (+2)",
+          "Hazard: stored energy (+3)"
+        ]
+      }
+    },
+    {
+      "report_id": "JAM-2026-014",
+      "source_file": "jamnagar_refinery_synthetic_reports (1).json",
+      "source_type": ".json",
+      "original_report": "report_id: JAM-2026-014\nsource_file: jamnagar_synthetic_2026.json\nsource_type: json\nreport_text: DATE: 21 Apr 2026\nCOUNTRY: India\nSITE: Reliance Jamnagar Refinery Complex, Gujarat\nREFINERY_ZONE: Utilities / Power Area\nFUNCTION: Utilities\nACTIVITY: Maintenance, inspection, testing\nCAUSE: Inadequate supervision\nPRIMARY LIFE-SAVING RULE: Work authorization\nNARRATIVE:\nA routine inspection identified that a temporary work boundary had not been maintained around an electrical maintenance task. Work was paused until the boundary was restored.\nWHAT WENT WRONG:\nSupervision did not identify the change in the work boundary during the task.\nCORRECTIVE ACTIONS:\nIncrease field verification of work boundaries during active maintenance.",
+      "raw_extraction": {
+        "activity": "Maintenance, inspection, testing\nCAUSE: Inadequate supervision",
+        "hazard": null,
+        "location": "Utilities / Power Area",
+        "unsafe_act": null,
+        "unsafe_condition": null,
+        "barrier_failure": null,
+        "potential_consequence": null,
+        "primary_lsr": "Work authorization",
+        "secondary_lsr": null,
+        "evidence": [
+          "Supervision did not identify the change in the work boundary during the task.\nCORRECTIVE ACTIONS:\nIncrease field verification of work boundaries during active maintenance."
+        ],
+        "confidence": 0.6
+      },
+      "normalized_extraction": {
+        "activity": "Maintenance, inspection, testing\nCAUSE: Inadequate supervision",
+        "hazard": null,
+        "location": "Utilities / Power Area",
+        "unsafe_act": null,
+        "unsafe_condition": null,
+        "barrier_failure": null,
+        "potential_consequence": null,
+        "primary_lsr": "Work authorization",
+        "secondary_lsr": null,
+        "evidence": [
+          "Supervision did not identify the change in the work boundary during the task.\nCORRECTIVE ACTIONS:\nIncrease field verification of work boundaries during active maintenance."
+        ],
+        "confidence": 0.6
+      },
+      "validation": {
+        "is_valid": true,
+        "issues": []
+      },
+      "status": "SUCCESS",
+      "sif_classification": {
+        "sif_score": 1,
+        "sif_level": "LOW",
+        "sif_reasons": [
+          "Primary LSR: Work authorization (+1)"
+        ]
+      }
+    },
+    {
+      "report_id": "JAM-2026-015",
+      "source_file": "jamnagar_refinery_synthetic_reports (1).json",
+      "source_type": ".json",
+      "original_report": "report_id: JAM-2026-015\nsource_file: jamnagar_synthetic_2026.json\nsource_type: json\nreport_text: DATE: 29 Apr 2026\nCOUNTRY: India\nSITE: Reliance Jamnagar Refinery Complex, Gujarat\nREFINERY_ZONE: Crude Distillation Unit (CDU)\nFUNCTION: Refining Operations\nACTIVITY: Production operations\nCAUSE: Inadequate communication\nPRIMARY LIFE-SAVING RULE: Work authorization\nNARRATIVE:\nA temporary operating restriction was not communicated clearly between two shifts. The incoming operator identified the discrepancy during handover and confirmed the correct operating condition before proceeding.\nWHAT WENT WRONG:\nThe shift handover did not clearly record the temporary restriction.\nCORRECTIVE ACTIONS:\nStrengthen shift handover documentation for temporary process conditions.",
+      "raw_extraction": {
+        "activity": "Production operations\nCAUSE: Inadequate communication",
+        "hazard": null,
+        "location": "Crude Distillation Unit (CDU)",
+        "unsafe_act": null,
+        "unsafe_condition": null,
+        "barrier_failure": null,
+        "potential_consequence": null,
+        "primary_lsr": "Work authorization",
+        "secondary_lsr": null,
+        "evidence": [
+          "The shift handover did not clearly record the temporary restriction.\nCORRECTIVE ACTIONS:\nStrengthen shift handover documentation for temporary process conditions."
+        ],
+        "confidence": 0.6
+      },
+      "normalized_extraction": {
+        "activity": "Production operations\nCAUSE: Inadequate communication",
+        "hazard": null,
+        "location": "Crude Distillation Unit (CDU)",
+        "unsafe_act": null,
+        "unsafe_condition": null,
+        "barrier_failure": null,
+        "potential_consequence": null,
+        "primary_lsr": "Work authorization",
+        "secondary_lsr": null,
+        "evidence": [
+          "The shift handover did not clearly record the temporary restriction.\nCORRECTIVE ACTIONS:\nStrengthen shift handover documentation for temporary process conditions."
+        ],
+        "confidence": 0.6
+      },
+      "validation": {
+        "is_valid": true,
+        "issues": []
+      },
+      "status": "SUCCESS",
+      "sif_classification": {
+        "sif_score": 1,
+        "sif_level": "LOW",
+        "sif_reasons": [
+          "Primary LSR: Work authorization (+1)"
+        ]
+      }
+    },
+    {
+      "report_id": "JAM-2026-016",
+      "source_file": "jamnagar_refinery_synthetic_reports (1).json",
+      "source_type": ".json",
+      "original_report": "report_id: JAM-2026-016\nsource_file: jamnagar_synthetic_2026.json\nsource_type: json\nreport_text: DATE: 07 May 2026\nCOUNTRY: India\nSITE: Reliance Jamnagar Refinery Complex, Gujarat\nREFINERY_ZONE: Maintenance Workshop\nFUNCTION: Maintenance\nACTIVITY: Lifting, crane, rigging, deck operations\nCAUSE: Lifting hazard\nPRIMARY LIFE-SAVING RULE: Safe mechanical lifting\nNARRATIVE:\nA workshop lifting task was stopped when the selected lifting accessory was found unsuitable for the planned load configuration. No load was suspended at the time of discovery.\nWHAT WENT WRONG:\nThe lifting accessory check was not completed during initial task preparation.\nCORRECTIVE ACTIONS:\nAdd lifting-accessory verification to the pre-job checklist.",
+      "raw_extraction": {
+        "activity": "Lifting, crane, rigging, deck operations\nCAUSE: Lifting hazard",
+        "hazard": "lifting hazard",
+        "location": "Maintenance Workshop",
+        "unsafe_act": null,
+        "unsafe_condition": null,
+        "barrier_failure": null,
+        "potential_consequence": null,
+        "primary_lsr": "Safe mechanical lifting",
+        "secondary_lsr": null,
+        "evidence": [
+          "The lifting accessory check was not completed during initial task preparation.\nCORRECTIVE ACTIONS:\nAdd lifting-accessory verification to the pre-job checklist."
+        ],
+        "confidence": 0.65
+      },
+      "normalized_extraction": {
+        "activity": "Lifting, crane, rigging, deck operations\nCAUSE: Lifting hazard",
+        "hazard": "lifting hazard",
+        "location": "Maintenance Workshop",
+        "unsafe_act": null,
+        "unsafe_condition": null,
+        "barrier_failure": null,
+        "potential_consequence": null,
+        "primary_lsr": "Safe mechanical lifting",
+        "secondary_lsr": null,
+        "evidence": [
+          "The lifting accessory check was not completed during initial task preparation.\nCORRECTIVE ACTIONS:\nAdd lifting-accessory verification to the pre-job checklist."
+        ],
+        "confidence": 0.65
+      },
+      "validation": {
+        "is_valid": true,
+        "issues": []
+      },
+      "status": "SUCCESS",
+      "sif_classification": {
+        "sif_score": 4,
+        "sif_level": "LOW",
+        "sif_reasons": [
+          "Primary LSR: Safe mechanical lifting (+2)",
+          "Hazard: lifting hazard (+2)"
+        ]
+      }
+    },
+    {
+      "report_id": "JAM-2026-017",
+      "source_file": "jamnagar_refinery_synthetic_reports (1).json",
+      "source_type": ".json",
+      "original_report": "report_id: JAM-2026-017\nsource_file: jamnagar_synthetic_2026.json\nsource_type: json\nreport_text: DATE: 16 May 2026\nCOUNTRY: India\nSITE: Reliance Jamnagar Refinery Complex, Gujarat\nREFINERY_ZONE: Tank Farm\nFUNCTION: Storage Operations\nACTIVITY: Transfer and loading operations\nCAUSE: Inadequate hazard identification or risk assessment\nPRIMARY LIFE-SAVING RULE: Work authorization\nNARRATIVE:\nA planned product transfer required simultaneous vehicle movement and hose connection work. The task was delayed until the interaction between the two activities was reviewed.\nWHAT WENT WRONG:\nThe initial job plan did not adequately address simultaneous operations.\nCORRECTIVE ACTIONS:\nReview simultaneous-operation controls before transfer activities.",
+      "raw_extraction": {
+        "activity": "Transfer and loading operations\nCAUSE: Inadequate hazard identification or risk assessment",
+        "hazard": "vehicle/road hazard",
+        "location": "Tank Farm",
+        "unsafe_act": null,
+        "unsafe_condition": null,
+        "barrier_failure": null,
+        "potential_consequence": null,
+        "primary_lsr": "Work authorization",
+        "secondary_lsr": null,
+        "evidence": [
+          "The initial job plan did not adequately address simultaneous operations.\nCORRECTIVE ACTIONS:\nReview simultaneous-operation controls before transfer activities."
+        ],
+        "confidence": 0.65
+      },
+      "normalized_extraction": {
+        "activity": "Transfer and loading operations\nCAUSE: Inadequate hazard identification or risk assessment",
+        "hazard": "vehicle/road hazard",
+        "location": "Tank Farm",
+        "unsafe_act": null,
+        "unsafe_condition": null,
+        "barrier_failure": null,
+        "potential_consequence": null,
+        "primary_lsr": "Work authorization",
+        "secondary_lsr": null,
+        "evidence": [
+          "The initial job plan did not adequately address simultaneous operations.\nCORRECTIVE ACTIONS:\nReview simultaneous-operation controls before transfer activities."
+        ],
+        "confidence": 0.65
+      },
+      "validation": {
+        "is_valid": true,
+        "issues": []
+      },
+      "status": "SUCCESS",
+      "sif_classification": {
+        "sif_score": 3,
+        "sif_level": "LOW",
+        "sif_reasons": [
+          "Primary LSR: Work authorization (+1)",
+          "Hazard: vehicle/road hazard (+2)"
+        ]
+      }
+    },
+    {
+      "report_id": "JAM-2026-018",
+      "source_file": "jamnagar_refinery_synthetic_reports (1).json",
+      "source_type": ".json",
+      "original_report": "report_id: JAM-2026-018\nsource_file: jamnagar_synthetic_2026.json\nsource_type: json\nreport_text: DATE: 25 May 2026\nCOUNTRY: India\nSITE: Reliance Jamnagar Refinery Complex, Gujarat\nREFINERY_ZONE: Gasification / Petcoke Handling Area\nFUNCTION: Process Operations\nACTIVITY: Maintenance, inspection, testing\nCAUSE: Stored energy\nPRIMARY LIFE-SAVING RULE: Energy isolation\nNARRATIVE:\nBefore maintenance on material-handling equipment, the team identified residual mechanical movement during the initial isolation check. Work was stopped and the equipment was secured before personnel entered the work area.\nWHAT WENT WRONG:\nThe first isolation check did not account for all stored mechanical energy.\nCORRECTIVE ACTIONS:\nExpand isolation verification to include mechanical stored energy.",
+      "raw_extraction": {
+        "activity": "Maintenance, inspection, testing\nCAUSE: Stored energy",
+        "hazard": "stored energy",
+        "location": "Gasification / Petcoke Handling Area",
+        "unsafe_act": null,
+        "unsafe_condition": null,
+        "barrier_failure": null,
+        "potential_consequence": null,
+        "primary_lsr": "Energy isolation",
+        "secondary_lsr": null,
+        "evidence": [
+          "The first isolation check did not account for all stored mechanical energy.\nCORRECTIVE ACTIONS:\nExpand isolation verification to include mechanical stored energy."
+        ],
+        "confidence": 0.65
+      },
+      "normalized_extraction": {
+        "activity": "Maintenance, inspection, testing\nCAUSE: Stored energy",
+        "hazard": "stored energy",
+        "location": "Gasification / Petcoke Handling Area",
+        "unsafe_act": null,
+        "unsafe_condition": null,
+        "barrier_failure": null,
+        "potential_consequence": null,
+        "primary_lsr": "Energy isolation",
+        "secondary_lsr": null,
+        "evidence": [
+          "The first isolation check did not account for all stored mechanical energy.\nCORRECTIVE ACTIONS:\nExpand isolation verification to include mechanical stored energy."
+        ],
+        "confidence": 0.65
+      },
+      "validation": {
+        "is_valid": true,
+        "issues": []
+      },
+      "status": "SUCCESS",
+      "sif_classification": {
+        "sif_score": 5,
+        "sif_level": "MEDIUM",
+        "sif_reasons": [
+          "Primary LSR: Energy isolation (+2)",
+          "Hazard: stored energy (+3)"
+        ]
+      }
+    },
+    {
+      "report_id": "JAM-2026-019",
+      "source_file": "jamnagar_refinery_synthetic_reports (1).json",
+      "source_type": ".json",
+      "original_report": "report_id: JAM-2026-019\nsource_file: jamnagar_synthetic_2026.json\nsource_type: json\nreport_text: DATE: 03 Jun 2026\nCOUNTRY: India\nSITE: Reliance Jamnagar Refinery Complex, Gujarat\nREFINERY_ZONE: Aromatics / Paraxylene Area\nFUNCTION: Process Operations\nACTIVITY: Maintenance, inspection, testing\nCAUSE: Dropped object\nPRIMARY LIFE-SAVING RULE: Line of fire\nNARRATIVE:\nA temporary fitting was found unsecured during an inspection at an elevated process platform. The item was secured before nearby work continued.\nWHAT WENT WRONG:\nThe temporary installation had not been included in the final area inspection.\nCORRECTIVE ACTIONS:\nInclude temporary items in pre-work area inspections.",
+      "raw_extraction": {
+        "activity": "Maintenance, inspection, testing\nCAUSE: Dropped object",
+        "hazard": null,
+        "location": "Aromatics / Paraxylene Area",
+        "unsafe_act": null,
+        "unsafe_condition": null,
+        "barrier_failure": null,
+        "potential_consequence": null,
+        "primary_lsr": "Line of fire",
+        "secondary_lsr": null,
+        "evidence": [
+          "The temporary installation had not been included in the final area inspection.\nCORRECTIVE ACTIONS:\nInclude temporary items in pre-work area inspections."
+        ],
+        "confidence": 0.6
+      },
+      "normalized_extraction": {
+        "activity": "Maintenance, inspection, testing\nCAUSE: Dropped object",
+        "hazard": null,
+        "location": "Aromatics / Paraxylene Area",
+        "unsafe_act": null,
+        "unsafe_condition": null,
+        "barrier_failure": null,
+        "potential_consequence": null,
+        "primary_lsr": "Line of fire",
+        "secondary_lsr": null,
+        "evidence": [
+          "The temporary installation had not been included in the final area inspection.\nCORRECTIVE ACTIONS:\nInclude temporary items in pre-work area inspections."
+        ],
+        "confidence": 0.6
+      },
+      "validation": {
+        "is_valid": true,
+        "issues": []
+      },
+      "status": "SUCCESS",
+      "sif_classification": {
+        "sif_score": 2,
+        "sif_level": "LOW",
+        "sif_reasons": [
+          "Primary LSR: Line of fire (+2)"
+        ]
+      }
+    },
+    {
+      "report_id": "JAM-2026-020",
+      "source_file": "jamnagar_refinery_synthetic_reports (1).json",
+      "source_type": ".json",
+      "original_report": "report_id: JAM-2026-020\nsource_file: jamnagar_synthetic_2026.json\nsource_type: json\nreport_text: DATE: 11 Jun 2026\nCOUNTRY: India\nSITE: Reliance Jamnagar Refinery Complex, Gujarat\nREFINERY_ZONE: Utilities / Power Area\nFUNCTION: Utilities\nACTIVITY: Transport - Land\nCAUSE: Vehicle / road hazard\nPRIMARY LIFE-SAVING RULE: Driving\nNARRATIVE:\nA utility vehicle approached a maintenance access road while personnel were crossing the controlled area. The vehicle stopped and the crossing was completed safely.\nWHAT WENT WRONG:\nVehicle-pedestrian segregation was temporarily reduced because of maintenance activity.\nCORRECTIVE ACTIONS:\nReinforce temporary traffic segregation and pedestrian controls.",
+      "raw_extraction": {
+        "activity": "Transport - Land\nCAUSE: Vehicle / road hazard",
+        "hazard": "vehicle/road hazard",
+        "location": "Utilities / Power Area",
+        "unsafe_act": null,
+        "unsafe_condition": null,
+        "barrier_failure": null,
+        "potential_consequence": null,
+        "primary_lsr": "Driving",
+        "secondary_lsr": null,
+        "evidence": [
+          "Vehicle-pedestrian segregation was temporarily reduced because of maintenance activity.\nCORRECTIVE ACTIONS:\nReinforce temporary traffic segregation and pedestrian controls."
+        ],
+        "confidence": 0.65
+      },
+      "normalized_extraction": {
+        "activity": "Transport - Land\nCAUSE: Vehicle / road hazard",
+        "hazard": "vehicle/road hazard",
+        "location": "Utilities / Power Area",
+        "unsafe_act": null,
+        "unsafe_condition": null,
+        "barrier_failure": null,
+        "potential_consequence": null,
+        "primary_lsr": "Driving",
+        "secondary_lsr": null,
+        "evidence": [
+          "Vehicle-pedestrian segregation was temporarily reduced because of maintenance activity.\nCORRECTIVE ACTIONS:\nReinforce temporary traffic segregation and pedestrian controls."
+        ],
+        "confidence": 0.65
+      },
+      "validation": {
+        "is_valid": true,
+        "issues": []
+      },
+      "status": "SUCCESS",
+      "sif_classification": {
+        "sif_score": 3,
+        "sif_level": "LOW",
+        "sif_reasons": [
+          "Primary LSR: Driving (+1)",
+          "Hazard: vehicle/road hazard (+2)"
+        ]
+      }
+    }
+  ],
+  "precursor_patterns": [
+    {
+      "pattern_id": "PREC-002",
+      "activity": "Maintenance, inspection, testing\nCAUSE: Stored energy",
+      "hazard": "stored energy",
+      "barrier_failure": "Unknown barrier failure",
+      "locations": [
+        "FCC / Coker Area",
+        "Gasification / Petcoke Handling Area",
+        "Hydroprocessing Area"
+      ],
+      "related_lsrs": [
+        "Energy isolation"
+      ],
+      "countries": [
+        "India"
+      ],
+      "occurrence_count": 3,
+      "high_sif_count": 0,
+      "medium_sif_count": 3,
+      "low_sif_count": 0,
+      "average_sif_score": 5.33,
+      "priority_score": 9,
+      "priority": "MEDIUM",
+      "report_ids": [
+        "JAM-2026-002",
+        "JAM-2026-013",
+        "JAM-2026-018"
+      ],
+      "rank": 1
+    },
+    {
+      "pattern_id": "PREC-004",
+      "activity": "Lifting, crane, rigging, deck operations\nCAUSE: Lifting hazard",
+      "hazard": "lifting hazard",
+      "barrier_failure": "Unknown barrier failure",
+      "locations": [
+        "FCC / Coker Area",
+        "Maintenance Workshop",
+        "Marine / Product Loading Area"
+      ],
+      "related_lsrs": [
+        "Line of fire",
+        "Safe mechanical lifting"
+      ],
+      "countries": [
+        "India"
+      ],
+      "occurrence_count": 3,
+      "high_sif_count": 0,
+      "medium_sif_count": 1,
+      "low_sif_count": 2,
+      "average_sif_score": 4.33,
+      "priority_score": 7,
+      "priority": "MEDIUM",
+      "report_ids": [
+        "JAM-2026-004",
+        "JAM-2026-012",
+        "JAM-2026-016"
+      ],
+      "rank": 2
+    },
+    {
+      "pattern_id": "PREC-011",
+      "activity": "Transport - Land\nCAUSE: Vehicle / road hazard",
+      "hazard": "vehicle/road hazard",
+      "barrier_failure": "Unknown barrier failure",
+      "locations": [
+        "Marine / Product Loading Area",
+        "Utilities / Power Area"
+      ],
+      "related_lsrs": [
+        "Driving"
+      ],
+      "countries": [
+        "India"
+      ],
+      "occurrence_count": 2,
+      "high_sif_count": 0,
+      "medium_sif_count": 0,
+      "low_sif_count": 2,
+      "average_sif_score": 3.0,
+      "priority_score": 4,
+      "priority": "LOW",
+      "report_ids": [
+        "JAM-2026-011",
+        "JAM-2026-020"
+      ],
+      "rank": 3
+    },
+    {
+      "pattern_id": "PREC-006",
+      "activity": "Maintenance, inspection, testing\nCAUSE: Dropped object",
+      "hazard": "dropped object",
+      "barrier_failure": "Unknown barrier failure",
+      "locations": [
+        "Hydroprocessing Area"
+      ],
+      "related_lsrs": [
+        "Line of fire"
+      ],
+      "countries": [
+        "India"
+      ],
+      "occurrence_count": 1,
+      "high_sif_count": 0,
+      "medium_sif_count": 1,
+      "low_sif_count": 0,
+      "average_sif_score": 6.0,
+      "priority_score": 3,
+      "priority": "LOW",
+      "report_ids": [
+        "JAM-2026-006"
+      ],
+      "rank": 4
+    },
+    {
+      "pattern_id": "PREC-001",
+      "activity": "Production operations\nCAUSE: Process upset / loss of containment potential",
+      "hazard": "Unknown hazard",
+      "barrier_failure": "Unknown barrier failure",
+      "locations": [
+        "Crude Distillation Unit (CDU)"
+      ],
+      "related_lsrs": [
+        "Process safety / line of fire"
+      ],
+      "countries": [
+        "India"
+      ],
+      "occurrence_count": 1,
+      "high_sif_count": 0,
+      "medium_sif_count": 0,
+      "low_sif_count": 1,
+      "average_sif_score": 1.0,
+      "priority_score": 2,
+      "priority": "LOW",
+      "report_ids": [
+        "JAM-2026-001"
+      ],
+      "rank": 5
+    },
+    {
+      "pattern_id": "PREC-003",
+      "activity": "Transfer and loading operations\nCAUSE: Vehicle / road hazard",
+      "hazard": "vehicle/road hazard",
+      "barrier_failure": "Unknown barrier failure",
+      "locations": [
+        "Tank Farm"
+      ],
+      "related_lsrs": [
+        "Driving"
+      ],
+      "countries": [
+        "India"
+      ],
+      "occurrence_count": 1,
+      "high_sif_count": 0,
+      "medium_sif_count": 0,
+      "low_sif_count": 1,
+      "average_sif_score": 4.0,
+      "priority_score": 2,
+      "priority": "LOW",
+      "report_ids": [
+        "JAM-2026-003"
+      ],
+      "rank": 6
+    },
+    {
+      "pattern_id": "PREC-005",
+      "activity": "Electrical maintenance\nCAUSE: Electrical energy",
+      "hazard": "Unknown hazard",
+      "barrier_failure": "Unknown barrier failure",
+      "locations": [
+        "Utilities / Power Area"
+      ],
+      "related_lsrs": [
+        "Energy isolation"
+      ],
+      "countries": [
+        "India"
+      ],
+      "occurrence_count": 1,
+      "high_sif_count": 0,
+      "medium_sif_count": 0,
+      "low_sif_count": 1,
+      "average_sif_score": 2.0,
+      "priority_score": 2,
+      "priority": "LOW",
+      "report_ids": [
+        "JAM-2026-005"
+      ],
+      "rank": 7
+    },
+    {
+      "pattern_id": "PREC-007",
+      "activity": "Production operations\nCAUSE: Process parameter deviation",
+      "hazard": "Unknown hazard",
+      "barrier_failure": "Unknown barrier failure",
+      "locations": [
+        "Aromatics / Paraxylene Area"
+      ],
+      "related_lsrs": [
+        "Work authorization"
+      ],
+      "countries": [
+        "India"
+      ],
+      "occurrence_count": 1,
+      "high_sif_count": 0,
+      "medium_sif_count": 0,
+      "low_sif_count": 1,
+      "average_sif_score": 2.0,
+      "priority_score": 2,
+      "priority": "LOW",
+      "report_ids": [
+        "JAM-2026-007"
+      ],
+      "rank": 8
+    },
+    {
+      "pattern_id": "PREC-008",
+      "activity": "Maintenance, inspection, testing\nCAUSE: Inadequate hazard identification or risk assessment",
+      "hazard": "Unknown hazard",
+      "barrier_failure": "Unknown barrier failure",
+      "locations": [
+        "Maintenance Workshop"
+      ],
+      "related_lsrs": [
+        "Work authorization"
+      ],
+      "countries": [
+        "India"
+      ],
+      "occurrence_count": 1,
+      "high_sif_count": 0,
+      "medium_sif_count": 0,
+      "low_sif_count": 1,
+      "average_sif_score": 1.0,
+      "priority_score": 2,
+      "priority": "LOW",
+      "report_ids": [
+        "JAM-2026-008"
+      ],
+      "rank": 9
+    },
+    {
+      "pattern_id": "PREC-009",
+      "activity": "Material handling\nCAUSE: Dropped object",
+      "hazard": "Unknown hazard",
+      "barrier_failure": "Unknown barrier failure",
+      "locations": [
+        "Gasification / Petcoke Handling Area"
+      ],
+      "related_lsrs": [
+        "Line of fire"
+      ],
+      "countries": [
+        "India"
+      ],
+      "occurrence_count": 1,
+      "high_sif_count": 0,
+      "medium_sif_count": 0,
+      "low_sif_count": 1,
+      "average_sif_score": 2.0,
+      "priority_score": 2,
+      "priority": "LOW",
+      "report_ids": [
+        "JAM-2026-009"
+      ],
+      "rank": 10
+    },
+    {
+      "pattern_id": "PREC-010",
+      "activity": "Inspection and testing\nCAUSE: Inadequate hazard identification or risk assessment",
+      "hazard": "vehicle/road hazard",
+      "barrier_failure": "Unknown barrier failure",
+      "locations": [
+        "Tank Farm"
+      ],
+      "related_lsrs": [
+        "Work authorization"
+      ],
+      "countries": [
+        "India"
+      ],
+      "occurrence_count": 1,
+      "high_sif_count": 0,
+      "medium_sif_count": 0,
+      "low_sif_count": 1,
+      "average_sif_score": 3.0,
+      "priority_score": 2,
+      "priority": "LOW",
+      "report_ids": [
+        "JAM-2026-010"
+      ],
+      "rank": 11
+    },
+    {
+      "pattern_id": "PREC-012",
+      "activity": "Maintenance, inspection, testing\nCAUSE: Inadequate supervision",
+      "hazard": "Unknown hazard",
+      "barrier_failure": "Unknown barrier failure",
+      "locations": [
+        "Utilities / Power Area"
+      ],
+      "related_lsrs": [
+        "Work authorization"
+      ],
+      "countries": [
+        "India"
+      ],
+      "occurrence_count": 1,
+      "high_sif_count": 0,
+      "medium_sif_count": 0,
+      "low_sif_count": 1,
+      "average_sif_score": 1.0,
+      "priority_score": 2,
+      "priority": "LOW",
+      "report_ids": [
+        "JAM-2026-014"
+      ],
+      "rank": 12
+    },
+    {
+      "pattern_id": "PREC-013",
+      "activity": "Production operations\nCAUSE: Inadequate communication",
+      "hazard": "Unknown hazard",
+      "barrier_failure": "Unknown barrier failure",
+      "locations": [
+        "Crude Distillation Unit (CDU)"
+      ],
+      "related_lsrs": [
+        "Work authorization"
+      ],
+      "countries": [
+        "India"
+      ],
+      "occurrence_count": 1,
+      "high_sif_count": 0,
+      "medium_sif_count": 0,
+      "low_sif_count": 1,
+      "average_sif_score": 1.0,
+      "priority_score": 2,
+      "priority": "LOW",
+      "report_ids": [
+        "JAM-2026-015"
+      ],
+      "rank": 13
+    },
+    {
+      "pattern_id": "PREC-014",
+      "activity": "Transfer and loading operations\nCAUSE: Inadequate hazard identification or risk assessment",
+      "hazard": "vehicle/road hazard",
+      "barrier_failure": "Unknown barrier failure",
+      "locations": [
+        "Tank Farm"
+      ],
+      "related_lsrs": [
+        "Work authorization"
+      ],
+      "countries": [
+        "India"
+      ],
+      "occurrence_count": 1,
+      "high_sif_count": 0,
+      "medium_sif_count": 0,
+      "low_sif_count": 1,
+      "average_sif_score": 3.0,
+      "priority_score": 2,
+      "priority": "LOW",
+      "report_ids": [
+        "JAM-2026-017"
+      ],
+      "rank": 14
+    },
+    {
+      "pattern_id": "PREC-015",
+      "activity": "Maintenance, inspection, testing\nCAUSE: Dropped object",
+      "hazard": "Unknown hazard",
+      "barrier_failure": "Unknown barrier failure",
+      "locations": [
+        "Aromatics / Paraxylene Area"
+      ],
+      "related_lsrs": [
+        "Line of fire"
+      ],
+      "countries": [
+        "India"
+      ],
+      "occurrence_count": 1,
+      "high_sif_count": 0,
+      "medium_sif_count": 0,
+      "low_sif_count": 1,
+      "average_sif_score": 2.0,
+      "priority_score": 2,
+      "priority": "LOW",
+      "report_ids": [
+        "JAM-2026-019"
+      ],
+      "rank": 15
+    }
+  ],
+  "hse_priorities": [
+    {
+      "priority_rank": 1,
+      "pattern_id": "PREC-002",
+      "priority": "CRITICAL",
+      "hse_priority_score": 16,
+      "activity": "Maintenance, inspection, testing\nCAUSE: Stored energy",
+      "hazard": "stored energy",
+      "barrier_failure": "Unknown barrier failure",
+      "related_lsrs": [
+        "Energy isolation"
+      ],
+      "countries": [
+        "India"
+      ],
+      "occurrence_count": 3,
+      "high_sif_count": 0,
+      "medium_sif_count": 3,
+      "recommendation": "Immediate HSE review recommended for Maintenance, inspection, testing\nCAUSE: Stored energy. Focus on stored energy and the recurring barrier failure: Unknown barrier failure.",
+      "report_ids": [
+        "JAM-2026-002",
+        "JAM-2026-013",
+        "JAM-2026-018"
+      ]
+    },
+    {
+      "priority_rank": 2,
+      "pattern_id": "PREC-004",
+      "priority": "HIGH",
+      "hse_priority_score": 12,
+      "activity": "Lifting, crane, rigging, deck operations\nCAUSE: Lifting hazard",
+      "hazard": "lifting hazard",
+      "barrier_failure": "Unknown barrier failure",
+      "related_lsrs": [
+        "Line of fire",
+        "Safe mechanical lifting"
+      ],
+      "countries": [
+        "India"
+      ],
+      "occurrence_count": 3,
+      "high_sif_count": 0,
+      "medium_sif_count": 1,
+      "recommendation": "Prioritize HSE investigation for Lifting, crane, rigging, deck operations\nCAUSE: Lifting hazard. Review controls related to lifting hazard and Unknown barrier failure.",
+      "report_ids": [
+        "JAM-2026-004",
+        "JAM-2026-012",
+        "JAM-2026-016"
+      ]
+    },
+    {
+      "priority_rank": 3,
+      "pattern_id": "PREC-011",
+      "priority": "MEDIUM",
+      "hse_priority_score": 7,
+      "activity": "Transport - Land\nCAUSE: Vehicle / road hazard",
+      "hazard": "vehicle/road hazard",
+      "barrier_failure": "Unknown barrier failure",
+      "related_lsrs": [
+        "Driving"
+      ],
+      "countries": [
+        "India"
+      ],
+      "occurrence_count": 2,
+      "high_sif_count": 0,
+      "medium_sif_count": 0,
+      "recommendation": "Continue monitoring Transport - Land\nCAUSE: Vehicle / road hazard and review the identified vehicle/road hazard risk.",
+      "report_ids": [
+        "JAM-2026-011",
+        "JAM-2026-020"
+      ]
+    },
+    {
+      "priority_rank": 4,
+      "pattern_id": "PREC-006",
+      "priority": "MEDIUM",
+      "hse_priority_score": 6,
+      "activity": "Maintenance, inspection, testing\nCAUSE: Dropped object",
+      "hazard": "dropped object",
+      "barrier_failure": "Unknown barrier failure",
+      "related_lsrs": [
+        "Line of fire"
+      ],
+      "countries": [
+        "India"
+      ],
+      "occurrence_count": 1,
+      "high_sif_count": 0,
+      "medium_sif_count": 1,
+      "recommendation": "Continue monitoring Maintenance, inspection, testing\nCAUSE: Dropped object and review the identified dropped object risk.",
+      "report_ids": [
+        "JAM-2026-006"
+      ]
+    },
+    {
+      "priority_rank": 5,
+      "pattern_id": "PREC-001",
+      "priority": "LOW",
+      "hse_priority_score": 4,
+      "activity": "Production operations\nCAUSE: Process upset / loss of containment potential",
+      "hazard": "Unknown hazard",
+      "barrier_failure": "Unknown barrier failure",
+      "related_lsrs": [
+        "Process safety / line of fire"
+      ],
+      "countries": [
+        "India"
+      ],
+      "occurrence_count": 1,
+      "high_sif_count": 0,
+      "medium_sif_count": 0,
+      "recommendation": "Monitor the precursor pattern and reassess if recurrence increases.",
+      "report_ids": [
+        "JAM-2026-001"
+      ]
+    },
+    {
+      "priority_rank": 6,
+      "pattern_id": "PREC-003",
+      "priority": "LOW",
+      "hse_priority_score": 4,
+      "activity": "Transfer and loading operations\nCAUSE: Vehicle / road hazard",
+      "hazard": "vehicle/road hazard",
+      "barrier_failure": "Unknown barrier failure",
+      "related_lsrs": [
+        "Driving"
+      ],
+      "countries": [
+        "India"
+      ],
+      "occurrence_count": 1,
+      "high_sif_count": 0,
+      "medium_sif_count": 0,
+      "recommendation": "Monitor the precursor pattern and reassess if recurrence increases.",
+      "report_ids": [
+        "JAM-2026-003"
+      ]
+    },
+    {
+      "priority_rank": 7,
+      "pattern_id": "PREC-005",
+      "priority": "LOW",
+      "hse_priority_score": 4,
+      "activity": "Electrical maintenance\nCAUSE: Electrical energy",
+      "hazard": "Unknown hazard",
+      "barrier_failure": "Unknown barrier failure",
+      "related_lsrs": [
+        "Energy isolation"
+      ],
+      "countries": [
+        "India"
+      ],
+      "occurrence_count": 1,
+      "high_sif_count": 0,
+      "medium_sif_count": 0,
+      "recommendation": "Monitor the precursor pattern and reassess if recurrence increases.",
+      "report_ids": [
+        "JAM-2026-005"
+      ]
+    },
+    {
+      "priority_rank": 8,
+      "pattern_id": "PREC-007",
+      "priority": "LOW",
+      "hse_priority_score": 4,
+      "activity": "Production operations\nCAUSE: Process parameter deviation",
+      "hazard": "Unknown hazard",
+      "barrier_failure": "Unknown barrier failure",
+      "related_lsrs": [
+        "Work authorization"
+      ],
+      "countries": [
+        "India"
+      ],
+      "occurrence_count": 1,
+      "high_sif_count": 0,
+      "medium_sif_count": 0,
+      "recommendation": "Monitor the precursor pattern and reassess if recurrence increases.",
+      "report_ids": [
+        "JAM-2026-007"
+      ]
+    },
+    {
+      "priority_rank": 9,
+      "pattern_id": "PREC-008",
+      "priority": "LOW",
+      "hse_priority_score": 4,
+      "activity": "Maintenance, inspection, testing\nCAUSE: Inadequate hazard identification or risk assessment",
+      "hazard": "Unknown hazard",
+      "barrier_failure": "Unknown barrier failure",
+      "related_lsrs": [
+        "Work authorization"
+      ],
+      "countries": [
+        "India"
+      ],
+      "occurrence_count": 1,
+      "high_sif_count": 0,
+      "medium_sif_count": 0,
+      "recommendation": "Monitor the precursor pattern and reassess if recurrence increases.",
+      "report_ids": [
+        "JAM-2026-008"
+      ]
+    },
+    {
+      "priority_rank": 10,
+      "pattern_id": "PREC-009",
+      "priority": "LOW",
+      "hse_priority_score": 4,
+      "activity": "Material handling\nCAUSE: Dropped object",
+      "hazard": "Unknown hazard",
+      "barrier_failure": "Unknown barrier failure",
+      "related_lsrs": [
+        "Line of fire"
+      ],
+      "countries": [
+        "India"
+      ],
+      "occurrence_count": 1,
+      "high_sif_count": 0,
+      "medium_sif_count": 0,
+      "recommendation": "Monitor the precursor pattern and reassess if recurrence increases.",
+      "report_ids": [
+        "JAM-2026-009"
+      ]
+    },
+    {
+      "priority_rank": 11,
+      "pattern_id": "PREC-010",
+      "priority": "LOW",
+      "hse_priority_score": 4,
+      "activity": "Inspection and testing\nCAUSE: Inadequate hazard identification or risk assessment",
+      "hazard": "vehicle/road hazard",
+      "barrier_failure": "Unknown barrier failure",
+      "related_lsrs": [
+        "Work authorization"
+      ],
+      "countries": [
+        "India"
+      ],
+      "occurrence_count": 1,
+      "high_sif_count": 0,
+      "medium_sif_count": 0,
+      "recommendation": "Monitor the precursor pattern and reassess if recurrence increases.",
+      "report_ids": [
+        "JAM-2026-010"
+      ]
+    },
+    {
+      "priority_rank": 12,
+      "pattern_id": "PREC-012",
+      "priority": "LOW",
+      "hse_priority_score": 4,
+      "activity": "Maintenance, inspection, testing\nCAUSE: Inadequate supervision",
+      "hazard": "Unknown hazard",
+      "barrier_failure": "Unknown barrier failure",
+      "related_lsrs": [
+        "Work authorization"
+      ],
+      "countries": [
+        "India"
+      ],
+      "occurrence_count": 1,
+      "high_sif_count": 0,
+      "medium_sif_count": 0,
+      "recommendation": "Monitor the precursor pattern and reassess if recurrence increases.",
+      "report_ids": [
+        "JAM-2026-014"
+      ]
+    },
+    {
+      "priority_rank": 13,
+      "pattern_id": "PREC-013",
+      "priority": "LOW",
+      "hse_priority_score": 4,
+      "activity": "Production operations\nCAUSE: Inadequate communication",
+      "hazard": "Unknown hazard",
+      "barrier_failure": "Unknown barrier failure",
+      "related_lsrs": [
+        "Work authorization"
+      ],
+      "countries": [
+        "India"
+      ],
+      "occurrence_count": 1,
+      "high_sif_count": 0,
+      "medium_sif_count": 0,
+      "recommendation": "Monitor the precursor pattern and reassess if recurrence increases.",
+      "report_ids": [
+        "JAM-2026-015"
+      ]
+    },
+    {
+      "priority_rank": 14,
+      "pattern_id": "PREC-014",
+      "priority": "LOW",
+      "hse_priority_score": 4,
+      "activity": "Transfer and loading operations\nCAUSE: Inadequate hazard identification or risk assessment",
+      "hazard": "vehicle/road hazard",
+      "barrier_failure": "Unknown barrier failure",
+      "related_lsrs": [
+        "Work authorization"
+      ],
+      "countries": [
+        "India"
+      ],
+      "occurrence_count": 1,
+      "high_sif_count": 0,
+      "medium_sif_count": 0,
+      "recommendation": "Monitor the precursor pattern and reassess if recurrence increases.",
+      "report_ids": [
+        "JAM-2026-017"
+      ]
+    },
+    {
+      "priority_rank": 15,
+      "pattern_id": "PREC-015",
+      "priority": "LOW",
+      "hse_priority_score": 4,
+      "activity": "Maintenance, inspection, testing\nCAUSE: Dropped object",
+      "hazard": "Unknown hazard",
+      "barrier_failure": "Unknown barrier failure",
+      "related_lsrs": [
+        "Line of fire"
+      ],
+      "countries": [
+        "India"
+      ],
+      "occurrence_count": 1,
+      "high_sif_count": 0,
+      "medium_sif_count": 0,
+      "recommendation": "Monitor the precursor pattern and reassess if recurrence increases.",
+      "report_ids": [
+        "JAM-2026-019"
+      ]
+    }
+  ]
+}
